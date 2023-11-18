@@ -45,12 +45,12 @@
 
 |命令|格式|别名|描述|权限|图片示例|
 |-----|-----|-----|-----|-----|-----|
-|`+创建团队`|`+创建团队 <关键词>`|`-`|`群内创建团队。`|`-`|[传送门](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/create_team.png)|
-|`+预定`|`+预定 <关键词> <ID> <职业>`|`+预订、+报名`|`群内预定留坑。`|`-`|
-|`+取消预定`|`+取消预定 <关键词> <ID>`|`+取消报名、+取消预订`|`群内取消留坑。`|`-`|
-|`+解散团队`|`+解散团队 <关键词>`|`+取消开团`|`解散一个现有的团队。`|`-`|
-|`+查看团队`|`+查看团队 <关键词>`|`-`|`查看一个现有的团队。`|`-`|
-|`+随机抽取`|`+随机抽取 <关键词>`|`-`|`在一个现有的团队中随机抽取一个团队成员。`|`-`|
+|`+创建团队`|`+创建团队 <关键词>`|`-`|`群内创建团队。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/create_team.png)|
+|`+预定`|`+预定 <关键词> <ID> <职业>`|`+预订、+报名`|`群内预定留坑。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/book.png)|
+|`+取消预定`|`+取消预定 <关键词> <ID>`|`+取消报名、+取消预订`|`群内取消留坑。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/cancel_book.png)|
+|`+解散团队`|`+解散团队 <关键词>`|`+取消开团`|`解散一个现有的团队。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/delete_team.png)|
+|`+查看团队`|`+查看团队 <关键词>`|`-`|`查看一个现有的团队。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/team_status.png)|
+|`+随机抽取`|`+随机抽取 <关键词>`|`-`|`在一个现有的团队中随机抽取一个团队成员。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/random_team.png)|
 
 ## ban
 
@@ -205,65 +205,97 @@ GitHub处理器。
 
 > 当群聊绑定服务器后，命令中`必选`的`服务器`均为`可选`。
 
-|命令|格式|别名|描述|权限|
-|-----|-----|-----|-----|-----|
-|`+jx3_news`|`+jx3_news`|`+新闻`|`获取官方最近4条新闻。`|`-`|
-|`+jx3_server`|`+jx3_server <服务器>`|`+服务器、+开服`|`获取服务器状态。`|`-`|
-|`+jx3_daily`|`+jx3_daily [服务器]`|`+日常、+周常`|`获取日常\|周常。`|`-`|
-|`+jx3_exam`|`+jx3_exam <问题关键词>`|`+科举`|`获取科举答案。`|`-`|
-|`+jx3_matrix`|`+jx3_matrix <心法>`|`+阵眼`|`获取阵眼效果。`|`-`|
-|`+jx3_random`|`+jx3_random`|`+骚话`|`获取剑网3“万花谷”频道骚话。`|`-`|
-|`+jx3_kungfu`|`+jx3_kungfu <心法>`|`+心法`|`获取心法所有技能。`|`-`|
-|`+jx3_skill`|`+jx3_skill <心法> <技能>`|`+技能`|`获取技能。`|`-`|
-|`+_jx3_talent`|`+_jx3_talent <心法> <奇穴>`|`+_奇穴`|`获取当前赛季奇穴信息。`|`-`|
-|`+jx3_pet`|`+jx3_pet`|`+宠物 <名称>`|`获取宠物信息。`|`-`|
-|`+jx3_adventure`|`+jx3_adventure <成就>`|`+成就`|`获取成就信息。`|`-`|
-|`+jx3_task`|`+jx3_task`|`+任务 <任务名>`|`查询任务信息。`|`-`|
-|`+jx3_subscribe`|`+jx3_subscribe <内容>`|`+订阅`|`订阅事件推送。`|`-`|
-|`+jx3_unsubscribe`|`+jx3_unsubscribe <内容>`|`+退订`|`取消订阅事件推送。`|`-`|
-|`+jx3_tiangou`|`+jx3_tiangou`|`+舔狗`|`获取舔狗日志。`|`-`|
-|`+jx3_recruit`|`+jx3_recruit <服务器> <关键词>`|`+招募`|`获取团队招募。`|`-`|
-|`+jx3_buff`|`+jx3_buff <buff>`|`+buff、+debuff`|`获取buff信息。`|`-`|
-|`+jx3_talent`|`+jx3_talent <心法> <奇穴> [赛季]`|`+奇穴`|`获取奇穴信息。`|`-`|
-|`+jx3_demon`|`+jx3_demon`|`+金价 <服务器>`|`获取金价。`|`-`|
-|`+jx3_price`|`+jx3_price`|`+物价 <物品>`|`获取外观物价。`|`-`|
-|`+jx3_serendipity`|`+jx3_serendipity <服务器> <ID>`|`+奇遇`|`获取个人奇遇记录。`|`-`|
-|`+jx3_statistical`|`+jx3_statistical <服务器> [奇遇]`|`+近期奇遇`|`获取服务器近期奇遇。`|`-`|
-|`+jx3_gserendipity`|`+jx3_gserendipity <奇遇>`|`+全服奇遇`|`获取各服特定奇遇记录。`|`-`|
-|`+jx3_gstatistical`|`+jx3_gstatistical <奇遇>`|`+全服统计`|`获取全服特定奇遇记录。`|`-`|
-|`+jx3_addritube`|`+jx3_addritube <服务器> <ID>`|`+属性、+查装`|`获取角色装备。`|`-`|
-|`+jx3_sandbox`|`+jx3_sandbox <服务器>`|`+沙盘`|`获取沙盘。`|`-`|
-|`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格。`|`-`|
-|`+jx3_machi`|`+jx3_machi <服务器> <ID> <成就\|副本>`|`+进度`|`获取某一个副本的成就进度。`|`-`|
-|`+jx3_achievement_v2`|`+jx3_achievement_v2 <服务器> <ID> <成就\|副本>`|`+进度v2`|`获取某成就或某副本的进度（重写）。`|`-`|
-|`+jx3_zoneachi`|`+jx3_zoneachi <服务器> <ID> <副本> [难度]`|`+团本成就`|`获取某副本所有成就的完成进度。`|`-`|
+### 服务器和新闻类
+
+|命令|格式|别名|描述|权限|图片示例|
+|-----|-----|-----|-----|-----|-----|
+|`+jx3_news`|`+jx3_news`|`+新闻`|`获取官方最近4条新闻。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_news.png)|
+|`+jx3_server`|`+jx3_server <服务器>`|`+服务器、+开服`|`获取服务器状态。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/server_status.png)|
+|`+jx3_daily`|`+jx3_daily [服务器]`|`+日常、+周常`|`获取日常\|周常。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_daily.png)|
+|`+jx3_subscribe`|`+jx3_subscribe <内容>`|`+订阅`|`订阅事件推送。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/subscribe.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/subscribe_response.jpg)|
+|`+jx3_unsubscribe`|`+jx3_unsubscribe <内容>`|`+退订`|`取消订阅事件推送。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/unsubscribe.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/unsubscribe_response.jpg)|
+|`+jx3_announce`|`+jx3_announce`|`+维护公告`|`获取维护公告(图片)。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_announce.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_announce_response.jpg)|
+
+### 用户数据类
+
+|命令|格式|别名|描述|权限|图片示例|
+|-----|-----|-----|-----|-----|-----|
+|`+jx3_serendipity`|`+jx3_serendipity <服务器> <ID>`|`+奇遇`|`获取个人奇遇记录。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu_response.jpg)|
+|`+jx3_addritube`|`+jx3_addritube <服务器> <ID>`|`+属性、+查装`|`获取角色装备。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute_response.jpg)|
+|`+jx3_machi`|`+jx3_machi <服务器> <ID> <成就\|副本>`|`+进度`|`获取某一个副本的成就进度。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_response.jpg)|
+|`+jx3_achievement_v2`|`+jx3_achievement_v2 <服务器> <ID> <成就\|副本>`|`+进度v2`|`获取某成就或某副本的进度（重写）。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2_response.jpg)|
+|`+jx3_zoneachi`|`+jx3_zoneachi <服务器> <ID> <副本> [难度]`|`+团本成就`|`获取某副本所有成就的完成进度。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi_response.jpg)|
+|`+jx3_player`|`+jx3_player <服务器> <ID>`|`玩家信息`|`获取玩家信息。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_playerinfo.png)|
+|`+jx3_zones`|`+jx3_zones <服务器> <ID>`|`+副本`|`获取副本通关记录，特别感谢@厌睢 提供的猫猫头素材！`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zone.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zone_response.jpg)|
+|`+jx3_firework_v2`|`+jx3_firework_v2 <服务器> <ID>`|`+烟花v2`|`获取个人烟花收发记录。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_firework.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_firework_response.jpg)|
+|`+jx3_addritube_v2`|`+jx3_addritube_v2 <服务器> <ID>`|`+属性v2`|`获取自身装备属性(重写)。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute2.png)/[返回图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute2_response.jpg)|
 |`+jx3_arena`|`+jx3_arena <战绩\|排行\|统计> <服务器\|模式> <ID>`|`+名剑`|`获取名剑大会信息。`|`-`|
-|`+jx3_top100`|`+jx3_top100 <服务器> <BOSS> [团队]`|`+百强`|`获取魔盒秘境百强团信息。`|`-`|
-|`+jx3_rank`|`+jx3_rank <个人\|帮会\|战功\|试炼> <服务器> <类型\|门派>`|`+榜单`|`获取榜单。`|`-`|
-|`+jx3_announce`|`+jx3_announce`|`+维护公告`|`获取维护公告(图片)。`|`-`|
-|`+jx3_player`|`+jx3_player <服务器> <ID>`|`玩家信息`|`获取玩家信息。`|`-`|
-|`+jx3_dh`|`+jx3_dh <条件>`|`+蹲号`|`获取盆栽蹲号。`|`-`|
-|`+jx3_ct`|`+jx3_ct <服务器>`|`+赤兔`|`获取赤兔刷新。`|`-`|
-|`+jx3_cd`|`+jx3_cd <服务器> <物品\|奇遇>`|`+cd`|`获取各种奇遇的上次触发。`|`-`|
-|`+jx3_zones_v1`|`+jx3_zones_v1 <服务器> <ID>`|`+副本v1`|`获取副本通关记录。`|`-`|
-|`+jx3_zones`|`+jx3_zones <服务器> <ID>`|`+副本`|`同上，重写版。`|`-`|
-|`+jx3_macro`|`+jx3_macro <心法>`|`+宏`|`查询宏命令。`|`-`|
-|`+jx3_horse`|`+jx3_horse <服务器>`|`+抓马、+马场`|`获取服务器马场信息。`|`-`|
-|`+jx3_wbl`|`+jx3_wbl <角色/外观> <编号>`|`+万宝楼`|`获取万宝楼商品价格。`|`-`|
-|`+jx3-firework`|`+jx3-firework <服务器> <ID>`|`+_烟花`|`获取玩家烟花信息。`|`-`|
-|`+jx3_bind`|`+jx3_bind <服务器>`|`+绑定`|`绑定群聊区服。`|`8/群`|
-|`+jx3_xuanjing`|`+jx3_xuanjing <服务器>`|`+玄晶`|`获取服务器玄晶记录（需Websocket）。`|`-`|
-|`+jx3_item`|`+jx3_item <物品ID>`|`+物品`|`获取物品截图。`|`-`|
-|`+jx3_preposition`|`+jx3_preposition <奇遇>`|`+前置`|`获取奇遇前置。`|`-`|
-|`+jx3_recipe`|`+jx3_recipe <奇遇>`|`+攻略`|`获取奇遇攻略。`|`-`|
-|`+jx3_zlrank`|`+jx3_zlrank [服务器] <门派>`|`+资历排行`|`获取资历排行榜。`|`-`|
-|`+jx3_drops`|`+jx3_drops <副本> <难度> <BOSS>`|`+掉落列表`|`获取副本掉落列表。`|`-`|
-|`+jx3_eqrec`|`+jx3_receq <心法> [标签]`|`+配装v2`|`获取推栏推荐配装。`|`-`|
-|`+jx3_addritube_v2`|`+jx3_addritube_v2 <服务器> <ID>`|`+属性v2`|`获取自身装备属性(重写)。`|`-`|
-|`-jx3_statistical`|`-jx3_statistical_v2 <服务器> <ID>`|`+掉落`|`获取区服物品掉落。`|`-`|
-|`-jx3_firework`|`-jx3_firework`|`-烟花 <服务器> <ID>`|`获取玩家烟花记录（加速版）。`|`-`|
-|`-jx3_monster`|`-jx3_monster`|`-百战`|`获取百战BOSS列表。`|`-`|
-|`+jx3_addritube_v2`|`+jx3_addritube_v2 <服务器> <ID>`|`+属性v2`|`获取玩家装备属性。`|`-`|
+
+
+### 信息查询类
+
+|命令|格式|别名|描述|权限|图片示例|
+|-----|-----|-----|-----|-----|-----|
+|`+jx3_exam`|`+jx3_exam <问题关键词>`|`+科举`|`获取科举答案。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_exam.png)|
+|`+jx3_matrix`|`+jx3_matrix <心法>`|`+阵眼`|`获取阵眼效果。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_martix.png)|
+|`+jx3_skill`|`+jx3_skill <心法> <技能>`|`+技能`|`获取技能。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_skill.png)|
+|`+jx3_talent`|`+jx3_talent <心法> <奇穴> [赛季]`|`+奇穴`|`获取奇穴信息。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_talent.png)|
+|`+jx3_buff`|`+jx3_buff <buff>`|`+buff、+debuff`|`获取buff信息。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_buff.png)|
+|`+jx3_pet`|`+jx3_pet`|`+宠物 <名称>`|`获取宠物信息。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_pet.png)|
+|`+jx3_adventure`|`+jx3_adventure <成就>`|`+成就`|`获取成就信息。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_achi.png)|
+|`+jx3_task`|`+jx3_task`|`+任务 <任务名>`|`查询任务信息。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_task.png)|
+|`+jx3_macro`|`+jx3_macro <心法>`|`+宏`|`查询宏命令。`|`-`|`暂无`|
+|`+jx3_ct`|`+jx3_ct <服务器>`|`+赤兔`|`获取赤兔刷新。`|`-`|`暂无`|
+|`+jx3_bind`|`+jx3_bind <服务器>`|`+绑定`|`绑定群聊区服。`|`8/群`|`暂无`|
+
+### 娱乐类
+
+|命令|格式|别名|描述|权限|图片示例|
+|-----|-----|-----|-----|-----|-----|
+|`+jx3_random`|`+jx3_random`|`+骚话`|`获取剑网3“万花谷”频道骚话。`|`-`|[例图](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_saohua.png)|
+|`+jx3_tiangou`|`+jx3_tiangou`|`+舔狗`|`获取舔狗日志。`|`-`|`暂无`|
+
+### 交易类
+
+|命令|格式|别名|描述|权限|图片示例|
+|-----|-----|-----|-----|-----|-----|
+|`+jx3_demon`|`+jx3_demon`|`+金价 <服务器>`|`获取金价。`|`-`|`暂无`|
+|`+jx3_price`|`+jx3_price`|`+物价 <物品>`|`获取外观物价。`|`-`|`暂无`|
+|`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格。`|`-`|`暂无`|
+|`+jx3_wbl`|`+jx3_wbl <角色/外观> <编号>`|`+万宝楼`|`获取万宝楼商品价格。`|`-`|`暂无`|
+|`+jx3_dh`|`+jx3_dh <条件>`|`+蹲号`|`获取盆栽蹲号。`|`-`|`暂无`|
+
+### 服务器内信息类
+
+|命令|格式|别名|描述|权限|图片示例|
+|-----|-----|-----|-----|-----|-----|
+|`+jx3_statistical`|`+jx3_statistical <服务器> [奇遇]`|`+近期奇遇`|`获取服务器近期奇遇。`|`-`|`暂无`|
+|`+jx3_gserendipity`|`+jx3_gserendipity <奇遇>`|`+全服奇遇`|`获取各服特定奇遇记录。`|`-`|`暂无`|
+|`+jx3_gstatistical`|`+jx3_gstatistical <奇遇>`|`+全服统计`|`获取全服特定奇遇记录。`|`-`|`暂无`|
+|`+jx3_sandbox`|`+jx3_sandbox <服务器>`|`+沙盘`|`获取沙盘。`|`-`|`暂无`|
+|`+jx3_cd`|`+jx3_cd <服务器> <物品\|奇遇>`|`+cd`|`获取各种奇遇的上次触发。`|`-`|`暂无`|
+|`+jx3_recruit`|`+jx3_recruit <服务器> <关键词>`|`+招募`|`获取团队招募。`|`-`|`暂无`|
+|`+jx3_horse`|`+jx3_horse <服务器>`|`+抓马、+马场`|`获取服务器马场信息。`|`-`|`暂无`|
+|`+jx3_dilu`|`+jx3_dilu`|`+的卢统计`|`获取全服的卢刷新、捕获及拍卖信息。`|`-`|`暂无`|
+
+### 榜单类
+
+|命令|格式|别名|描述|权限|图片示例|
+|-----|-----|-----|-----|-----|-----|
+|`+jx3_top100`|`+jx3_top100 <服务器> <BOSS> [团队]`|`+百强`|`获取魔盒秘境百强团信息。`|`-`|`暂无`|
+|`+jx3_rank`|`+jx3_rank <个人\|帮会\|战功\|试炼> <服务器> <类型\|门派>`|`+榜单`|`获取榜单。`|`-`|`暂无`|
+|`+jx3_zlrank`|`+jx3_zlrank [服务器] <门派>`|`+资历排行`|`获取资历排行榜。`|`-`|`暂无`|
+
+### 杂类
+
+|命令|格式|别名|描述|权限|图片示例|
+|-----|-----|-----|-----|-----|-----|
+|`+jx3_item`|`+jx3_item <物品ID>`|`+物品`|`获取物品截图。`|`-`|`暂无`|
+|`+jx3_preposition`|`+jx3_preposition <奇遇>`|`+前置`|`获取奇遇前置。`|`-`|`暂无`|
+|`+jx3_recipe`|`+jx3_recipe <奇遇>`|`+攻略`|`获取奇遇攻略。`|`-`|`暂无`|
+|`+jx3_drops`|`+jx3_drops <副本> <难度> <BOSS>`|`+掉落列表`|`获取副本掉落列表。`|`-`|`暂无`|
+|`+jx3_eqrec`|`+jx3_receq <心法> [标签]`|`+配装v2`|`获取推栏推荐配装。`|`-`|`暂无`|
+|`+jx3_monster_v2`|`-jx3_monster`|`+百战`|`获取百战BOSS列表。`|`-`|`暂无`|
 
 !> 对于`-`开头的命令，即使绑定了服务器也不可以省略服务器，但可以正常映射。<br>
 
