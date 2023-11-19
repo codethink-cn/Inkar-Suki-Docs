@@ -3,7 +3,7 @@
 ## 介绍
 
 ![Nonebot2](https://img.shields.io/badge/Nonebot2-Release_v2.0.0_beta.5-brightgreen)
-![go-cqhttp](https://img.shields.io/badge/go--cqhttp-v1.0.0_rc3-brightgreen)
+![go-cqhttp](https://img.shields.io/badge/go--cqhttp-v1.2.0-brightgreen)
 ![GitHub](https://img.shields.io/github/license/codethink-cn/Inkar-Suki)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/codethink-cn/Inkar-Suki?include_prereleases)
