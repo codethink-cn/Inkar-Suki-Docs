@@ -4,7 +4,7 @@
 
 本章节不讲述如何配置`Go-CQHTTP`，相关内容请访问[Go-CQHTTP文档](https://docs.go-cqhttp.org/guide/#go-cqhttp)。
 
-**2023年9月23日新增文档：[Go-CQHTTP相关配置](https://inkar-suki.codethink.cn/docs2/#/gocq)。**
+**2023年9月23日新增文档：[Go-CQHTTP相关配置](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/gocq)。**
 
 > 请`仔细且完整`地阅读完毕整个文档，如果发生基础错误且文档内有出示我们可能不会为您提供支持或服务。
 
