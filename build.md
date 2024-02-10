@@ -122,6 +122,10 @@ class Config:
     repo_name = ""  # 该`Inkar-Suki`的副本的来源，若从主仓库克隆，则填写`codethink-cn/Inkar-Suki`，若为fork之后克隆的仓库，则填写`<你的GitHub用户名>/Inkar-Suki`
 
     jx3api_link = "" #JX3API API链接
+
+    notice_to = [""] # 当音卡触发特定事件时推送到群聊，可以有多个
+
+    inkarsuki_offical_apitoken = "" # 留空即可
 ```
 
 后面没有注释的代码行可以忽略。
@@ -201,9 +205,6 @@ class Config:
 
 `Inkar-Suki`自带一套较为完善的权限系统，该权限系统分为`0-10`，共`11`个等级，每个等级对应的特权不同，但高权限包含低权限。
 
-!> 您可以在GroupUserConfig类中修改其默认值，也可以在src/data/users/qq号/jx3user.json中修改其当前值。
-
-!> `10`级权限具有操控后台的能力，该功能被设计用于方便开发者，但是谨防提权，小心`SSH`反射等行为，慎给`10`级权限！<br>
 > 只有同时具有`10`级权限以及处于配置文件中`owner`的列表中的用户具有给予`10`级权限的能力。<br>
 
 
