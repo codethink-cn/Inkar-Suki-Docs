@@ -111,10 +111,10 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+block`|`+block <避雷对象> <原因>`|`+加入黑名单`、`+避雷`|`将某人添加至群内避雷名单。`|`5/群管`|![示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_block.png)|
-|`+unblock`|`+unblock <避雷对象>`|`+移出黑名单`|`解除某人的避雷。`|`5/群管`|![示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_unblock.png)|
-|`+sblock`|`+sblock <查找对象>`|`+查黑`|`查询某人是否在避雷名单中。`|`-`|![示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_sblock.png)|
-|`+lblock`|`+lblock`|`+本群黑名单`、`+列出黑名单`|`查询所有避雷人员。`|`-`|![示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_lblock.png)/![图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_lblock_response.png)/|
+|`+block`|`+block <避雷对象> <原因>`|`+加入黑名单`、`+避雷`|`将某人添加至群内避雷名单。`|`5/群管`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_block.png)|
+|`+unblock`|`+unblock <避雷对象>`|`+移出黑名单`|`解除某人的避雷。`|`5/群管`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_unblock.png)|
+|`+sblock`|`+sblock <查找对象>`|`+查黑`|`查询某人是否在避雷名单中。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_sblock.png)|
+|`+lblock`|`+lblock`|`+本群黑名单`、`+列出黑名单`|`查询所有避雷人员。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_lblock.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_lblock_response.png)/|
 
 ## developer_tools
 
@@ -163,7 +163,7 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+welcome`|`+welcome <欢迎语>`|`+设置入群欢迎语`|`设置入群欢迎语。`|`5/群`|![示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/event_notice_welcome.png)|
+|`+welcome`|`+welcome <欢迎语>`|`+设置入群欢迎语`|`设置入群欢迎语。`|`5/群`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/event_notice_welcome.png)|
 
 > 如果`Inkar Suki`被移出群聊，将会封禁此人。
 
@@ -182,9 +182,9 @@ GitHub处理器。
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+repo`|`+repo <author/repository>`|`-`|`查看GitHub仓库。`|`-`|![示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/github_repo.png)/![图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/github_repo_response.jpg)||
-|`+bindrepo`|`+bindrepo <author/repository>`|`+webhook`|`绑定仓库，使收到的属于该仓库的Webhook全部推送至该群聊。`|`9/群`|![示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/github_bindrepo.png)|
-|`+unbindrepo`|`+unbindrepo <author/repository>`|`+unbind_webhook`|`解绑仓库，功能同上相反。`|`9/群`|![示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/github_unbindrepo.png)|
+|`+repo`|`+repo <author/repository>`|`-`|`查看GitHub仓库。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/github_repo.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/github_repo_response.jpg)||
+|`+bindrepo`|`+bindrepo <author/repository>`|`+webhook`|`绑定仓库，使收到的属于该仓库的Webhook全部推送至该群聊。`|`9/群`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/github_bindrepo.png)|
+|`+unbindrepo`|`+unbindrepo <author/repository>`|`+unbind_webhook`|`解绑仓库，功能同上相反。`|`9/群`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/github_unbindrepo.png)|
 
 ## grab
 
