@@ -232,10 +232,10 @@ GitHub处理器。
 |命令|格式|别名|描述|权限|图片示例|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_news`|`+jx3_news`|`+新闻`|`获取官方最近4条新闻。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_news.png)|
-|`+jx3_server`|`+jx3_server <服务器>`|`+服务器、+开服`|`获取服务器状态。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/server_status.png)|
+|`+jx3_server`|`+jx3_server <服务器>`|`+服务器、+开服`|`获取服务器状态。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_server_status.png)|
 |`+jx3_daily`|`+jx3_daily [服务器]`|`+日常、+周常`|`获取日常\|周常。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_daily.png)|
-|`+jx3_subscribe`|`+jx3_subscribe <内容>`|`+订阅`|`订阅事件推送。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/subscribe.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/subscribe_response.jpg)|
-|`+jx3_unsubscribe`|`+jx3_unsubscribe <内容>`|`+退订`|`取消订阅事件推送。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/unsubscribe.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/unsubscribe_response.jpg)|
+|`+jx3_subscribe`|`+jx3_subscribe <内容>`|`+订阅`|`订阅事件推送。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_subscribe.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_subscribe_response.jpg)|
+|`+jx3_unsubscribe`|`+jx3_unsubscribe <内容>`|`+退订`|`取消订阅事件推送。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_unsubscribe.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_unsubscribe_response.jpg)|
 |`+jx3_announce`|`+jx3_announce`|`+维护公告`|`获取维护公告(图片)。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_announce.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_announce_response.jpg)|
 
 ### 用户数据类
