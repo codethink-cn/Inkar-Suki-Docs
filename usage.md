@@ -267,25 +267,23 @@ GitHub处理器。
 |`+jx3_adventure`|`+jx3_adventure <成就>`|`+成就`|`获取成就信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_achi.png)|
 |`+jx3_task`|`+jx3_task`|`+任务 <任务名>`|`查询任务信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_task.png)|
 |`+jx3_macro`|`+jx3_macro <心法>`|`+宏`|`查询宏命令。`|`-`|`暂无`|
-|`+jx3_ct`|`+jx3_ct <服务器>`|`+赤兔`|`获取赤兔刷新。`|`-`|`暂无`|
-|`+jx3_bind`|`+jx3_bind <服务器>`|`+绑定`|`绑定群聊区服。`|`8/群`|`暂无`|
+|`+jx3_bind`|`+jx3_bind <服务器>`|`+绑定`|`绑定群聊区服。`|`8/群`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_bind.png)|
 
 ### 娱乐类
 
 |命令|格式|别名|描述|权限|图片示例|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_random`|`+jx3_random`|`+骚话`|`获取剑网3“万花谷”频道骚话。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_saohua.png)|
-|`+jx3_tiangou`|`+jx3_tiangou`|`+舔狗`|`获取舔狗日志。`|`-`|`暂无`|
+|`+jx3_tiangou`|`+jx3_tiangou`|`+舔狗`|`获取舔狗日志。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_tiangou.png)|
 
 ### 交易类
 
 |命令|格式|别名|描述|权限|图片示例|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_demon`|`+jx3_demon`|`+金价 <服务器>`|`获取金价。`|`-`|`暂无`|
-|`+jx3_price`|`+jx3_price`|`+物价 <物品>`|`获取外观物价。`|`-`|`暂无`|
-|`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格。`|`-`|`暂无`|
-|`+jx3_wbl`|`+jx3_wbl <角色/外观> <编号>`|`+万宝楼`|`获取万宝楼商品价格。`|`-`|`暂无`|
-|`+jx3_dh`|`+jx3_dh <条件>`|`+蹲号`|`获取盆栽蹲号。`|`-`|`暂无`|
+|`+jx3_demon`|`+jx3_demon`|`+金价 <服务器>`|`获取金价。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_demon.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_demon_response.jpg)|
+|`+jx3_price`|`+jx3_price`|`+物价 <物品>`|`获取外观物价。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_feiniu_wujia.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_feiniu_wujia_response.jpg)|
+|`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_response.jpg)|
+|`+jx3_dh`|`+jx3_dh <条件(多个以空格分割)>`|`+蹲号`|`获取盆栽蹲号。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
 
 ### 服务器内信息类
 
