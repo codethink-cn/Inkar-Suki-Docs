@@ -94,4 +94,4 @@ JX3API：[JX3API](https://www.jx3api.com/#/)
 
 技术支持：@[OasisAkari](https://github.com/OasisAkari)、@CodeThink
 
-软件：@Go-CQHTTP、@Nonebot
+软件：@Go-CQHTTP、@Nonebot、@Lagrange
