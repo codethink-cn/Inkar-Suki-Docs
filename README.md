@@ -4,7 +4,7 @@
 
 欢迎来到`Inkar Suki`的`官方`文档！
 
-快捷通道：如果您是来看使用帮助的，可以直接点下面的`使用`跳转，如果您只想看`剑网3`相关，可以点[此](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/usage?id=jx3)跳转。
+**快捷通道：如果您是来看使用帮助的，可以直接点下面的`使用`跳转，如果您只想看`剑网3`相关，可以点[此](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/usage?id=jx3)跳转。**
 
 `Inkar Suki`由`CodeThink Technologies`（简称`CodeThink`）出品的基于`Python`的机器人，目前该团队中`HornCopper`主要负责该项目的运维。
 
