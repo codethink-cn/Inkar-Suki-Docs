@@ -58,6 +58,8 @@
 
 ### 列出黑名单
 
+|命令|格式|别名|描述|权限|图片|
+|-----|-----|-----|-----|-----|-----|
 |`+lblock`|`+lblock`|`+本群黑名单`、`+列出黑名单`|`查询所有避雷人员。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_lblock.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/blacklist_lblock_response.png)|
 
 ## bmi
