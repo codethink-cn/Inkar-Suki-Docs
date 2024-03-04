@@ -6,6 +6,8 @@
 
 **2023年9月23日新增文档：[Go-CQHTTP相关配置](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/gocq)。**
 
+**2024年3月4日新增文档：[Lagrange相关配置](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/lagrange)。**
+
 > 请`仔细且完整`地阅读完毕整个文档，如果发生基础错误且文档内有出示我们可能不会为您提供支持或服务。
 
 ## 下载
