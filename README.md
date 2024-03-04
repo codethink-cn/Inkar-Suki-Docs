@@ -2,13 +2,6 @@
 
 ## 介绍
 
-![Nonebot2](https://img.shields.io/badge/Nonebot2-Release_v2.0.0_beta.5-brightgreen)
-![go-cqhttp](https://img.shields.io/badge/go--cqhttp-v1.2.0-brightgreen)
-![GitHub](https://img.shields.io/github/license/codethink-cn/Inkar-Suki)
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/codethink-cn/Inkar-Suki?include_prereleases)
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/codethink-cn/Inkar-Suki)
-
 欢迎来到`Inkar Suki`的`官方`文档！
 
 快捷通道：如果您是来看使用帮助的，可以直接点下面的`使用`跳转，如果您只想看`剑网3`相关，可以点[此](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/usage?id=jx3)跳转。
