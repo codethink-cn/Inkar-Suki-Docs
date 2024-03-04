@@ -11,13 +11,15 @@
 
 欢迎来到`Inkar Suki`的`官方`文档！
 
+快捷通道：如果您是来看使用帮助的，可以直接点下面的`使用`跳转，如果您只想看`剑网3`相关，可以点[此](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/usage?id=jx3)跳转。
+
 `Inkar Suki`由`CodeThink Technologies`（简称`CodeThink`）出品的基于`Python`的机器人，目前该团队中`HornCopper`主要负责该项目的运维。
 
 这并不意味着您不可以对`Inkar Suki`的代码进行更改，相反，我们有大量代码均由社区成员贡献。
 
 `Inkar Suki`是开源的项目！他的项目地址为：`codethink-cn/Inkar-Suki`，位于`GitHub`，[点击传送](https://github.com/codethink-cn/Inkar-Suki)。
 
-`Inkar Suki`按`GPL-3.0`协议开源。不允许任何商用行为，不允许诸如神通广大的兔兔机器人以及帝君等各路神仙使用本庙的任何源代码。
+`Inkar Suki`按`GPL-3.0`协议开源。不允许任何商用行为，如果您基于我们的代码再次开发，记得也要遵守该协议哦~
 
 > `菩提`、`梦影`和`Inkar Suki`开发组可以不受该协议限制。
 
@@ -28,6 +30,7 @@
 * [指南](/guide)
 * [公告](/notice)
 * [赞助](/donate)
+* [使用](/usage)
 
 ## 赞助记录
 
