@@ -441,6 +441,7 @@ GitHub处理器。
 |命令|格式|别名|描述|权限|图片示例|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_recruit`|`+jx3_recruit <服务器> <关键词>`|`+招募`|`获取团队招募。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_response.png)|
+|`+jx3_recruit_local`|`+jx3_recruit_local <服务器> <关键词>`|`+本服招募`|`获取本服的招募，过滤跨服招募。`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_local.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_local_response.png)|
 
 #### 抓马信息
 
