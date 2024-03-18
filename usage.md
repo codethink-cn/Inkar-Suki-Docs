@@ -4,7 +4,7 @@
 
 如果你只想看剑网3相关功能，在看完下面这个消息框后可以直接[点此跳转](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/usage?id=jx3)，或使用左侧的搜索框进行搜索。
 
-> 在阅读本章节之前，推荐您先阅读：[如何正确正确使用文档](/docs_usage)。
+> 在阅读本章节之前，推荐您先阅读：[如何正确使用文档](/docs_usage)。
 
 ## ban
 
