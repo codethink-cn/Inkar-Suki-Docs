@@ -2,15 +2,13 @@
 
 本章节主要讲述如何搭建`go-cqhttp`以搭建`Inkar Suki`。
 
-!> 阅读本章节之前，请先阅读[Go-CQHTTP#2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)。
+!> 阅读本章节之前，请注意：**本章节所述内容可能不具有任何时效性，甚至可能不存在任何有用信息，且本页已经放弃维护**，参考阅读[Go-CQHTTP#2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)。
 
 正文中未讲解的配置内容需要自行查询[Go-CQHTTP 官方文档](https://docs.go-cqhttp.org/)，**未讲解的内容与您的Bot搭建大部分是没有任何关系的，也就是他们一般来说不需要配置，使用默认方案即可。**
 
 !> 本章节是计划外的章节，`Inkar Suki`原文档计划中并没有本章节，由于多数用户的需要，故创作本章节。
 <br>
 欢迎对于本章节的内容进行提问，不过请记住，开发者**没有义务**回答问题，但是我们会尽可能地解决您的问题。
-
-> 由于`go-cqhttp`版本变迁较快（指`dev`），本文档的内容不保证为最新，但适配于[此版本（Linux AMD64）](https://inkar-suki.codethink.cn/assets/file/go-cqhttp)。
 
 ## 配置文件
 

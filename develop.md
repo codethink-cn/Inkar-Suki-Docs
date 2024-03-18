@@ -12,7 +12,8 @@
 
 贡献者：`Serfend`。
 
-可以使用`from src.tools.dep import *`进行一键导入，里面包含了大部分所需的库。
+可以使用`from src.tools.basic import *`进行一键导入，里面包含了大部分所需的库。
+
 
 我们提供了相当多的请求方式，例如`GET`、`POST`等。
 

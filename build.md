@@ -6,6 +6,8 @@
 
 **2023年9月23日新增文档：[Go-CQHTTP相关配置](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/gocq)。**
 
+**2024年3月4日新增文档：[Lagrange相关配置](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/lagrange)。**
+
 > 请`仔细且完整`地阅读完毕整个文档，如果发生基础错误且文档内有出示我们可能不会为您提供支持或服务。
 
 ## 下载
@@ -14,18 +16,22 @@
 
 `Inkar Suki`需要以下内容：
 * Python
-* GO-CQHTTP
+* 任意`Onebot V11`协议端
 * [Git](https://git-scm.com/)
 
 如果`Python`[官网](https://www.python.org)缓慢或无法访问，可以前往淘宝的`Python`镜像站：[传送门](https://registry.npmmirror.com/binary.html?path=python/)。
 
 > 请注意，`Inkar Suki`所需的`Python`版本至少为`3.8`，不建议使用`3.10+`，但仍然可用。
 
-`Go-CQHTTP`项目地址：`Mrs4s/go-cqhttp`（[传送门](https://github.com/Mrs4s/go-cqhttp)），请下载最新版本。
+`Onebot V11`实现的协议端有诸多选择，例如`Go-CQHTTP`等，~~此处以`Go-CQHTTP`为例。~~
 
-> 亦可选择使用`nonebot-plugin-gocqhttp`，这样可以不再自己搭建`Go-CQHTTP`，但是需要自行配置该插件，项目地址：`mnixry/nonebot-plugin-gocqhttp`（[传送门](https://github.com/mnixry/nonebot-plugin-gocqhttp)）。<br>
+~~`Go-CQHTTP`项目地址：`Mrs4s/go-cqhttp`（[传送门](https://github.com/Mrs4s/go-cqhttp)），请下载最新版本。~~
 
-!> 由于企鹅公司修改了算法，导致大部分`Go-CQHTTP`会触发风控/封号，无法正常发送消息，请尝试自行搭建签名服务器，详情请见[Go-CQHTTP#2183](https://github.com/Mrs4s/go-cqhttp/issues/2183)。
+> ~~亦可选择使用`nonebot-plugin-gocqhttp`，这样可以不再自己搭建`Go-CQHTTP`，但是需要自行配置该插件，项目地址：`mnixry/nonebot-plugin-gocqhttp`（[传送门](https://github.com/mnixry/nonebot-plugin-gocqhttp)）。<br>~~
+
+!> ~~由于企鹅公司修改了算法，导致大部分`Go-CQHTTP`会触发风控/封号，无法正常发送消息，请尝试自行搭建签名服务器，详情请见[Go-CQHTTP#2183](https://github.com/Mrs4s/go-cqhttp/issues/2183)。~~
+
+`Go-CQHTTP`已经停止维护，您可以考虑使用本页顶部的`Lagrange`进行配置，相关内容请参考：[Go-CQHTTP#2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)。
 
 安装好`Python`后，使用`python --version`测试是否安装成功，必要时替换为`python3`。
 

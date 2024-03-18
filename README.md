@@ -2,14 +2,9 @@
 
 ## 介绍
 
-![Nonebot2](https://img.shields.io/badge/Nonebot2-Release_v2.0.0_beta.5-brightgreen)
-![go-cqhttp](https://img.shields.io/badge/go--cqhttp-v1.2.0-brightgreen)
-![GitHub](https://img.shields.io/github/license/codethink-cn/Inkar-Suki)
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/codethink-cn/Inkar-Suki?include_prereleases)
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/codethink-cn/Inkar-Suki)
-
 欢迎来到`Inkar Suki`的`官方`文档！
+
+**快捷通道：如果您是来看使用帮助的，可以直接点下面的`使用`跳转，如果您只想看`剑网3`相关，可以点[此](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/usage?id=jx3)跳转或使用左侧搜索栏进行搜索。**
 
 `Inkar Suki`由`CodeThink Technologies`（简称`CodeThink`）出品的基于`Python`的机器人，目前该团队中`HornCopper`主要负责该项目的运维。
 
@@ -17,17 +12,9 @@
 
 `Inkar Suki`是开源的项目！他的项目地址为：`codethink-cn/Inkar-Suki`，位于`GitHub`，[点击传送](https://github.com/codethink-cn/Inkar-Suki)。
 
-`Inkar Suki`按`GPL-3.0`协议开源。不允许任何商用行为，不允许诸如神通广大的兔兔机器人以及帝君等各路神仙使用本庙的任何源代码。
-
-> `菩提`、`梦影`和`Inkar Suki`开发组可以不受该协议限制。
+`Inkar Suki`按`GPL-3.0`协议开源。不允许任何商用行为，如果您基于我们的代码再次开发，记得也要遵守该协议哦，如果您参与了音卡的开发，在您拥有`Inkar Suki`仓库`Write`权限的时候，可以不受该协议拘束，如果被移除开发组，则需要将代码以同样的方式再次开源。
 
 欢迎加入我们的[用户群（650495414）](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1AeM7W5zCz34kq0OSWzEkBn96cU52ml-&authKey=RKa4ldeu8D%2F59RyUhdjJtahBv98CpFdsW%2F8foQsh62QwYm69Zv0GfWyYAYXUsJJ0&noverify=0&group_code=650495414)。
-
-点击侧边栏开始阅读我们的文档吧，如果您使用的是移动设备，这里我们也提供一个侧边栏哦~
-
-* [指南](/guide)
-* [公告](/notice)
-* [赞助](/donate)
 
 ## 赞助记录
 
@@ -94,4 +81,4 @@ JX3API：[JX3API](https://www.jx3api.com/#/)
 
 技术支持：@[OasisAkari](https://github.com/OasisAkari)、@CodeThink
 
-软件：@Go-CQHTTP、@Nonebot
+软件：@Go-CQHTTP、@Nonebot、@Lagrange
