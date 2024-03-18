@@ -4,12 +4,7 @@
 
 如果你只想看剑网3相关功能，在看完下面这个消息框后可以直接[点此跳转](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/usage?id=jx3)，或使用左侧的搜索框进行搜索。
 
-> 本章节中，使用中括号（`[]`）包括的参数均为可选参数，如果是`服务器`参数，那么在绑定群聊之后都可以省略！<br>
-> 本章节中，使用尖括号（`<>`）包括的参数均为必选参数，在使用命令时必须有这个参数。<br>
-> 本章节中，所有的括号在实际使用中不需要。如果格式是：`+a <b>`，别名是`+c`，那么`+a <b>`就等同于`+c <b>`！<br>
-> 本章节中，`+`开头的命令一律可以省略开头的加号。<br>
-> 示例是指发送消息以及得到回复的截图，图例是指回复的消息具体内容（或者图片）。<br>
-> 喜报以及悲报、避雷名单不属于`jx3`插件，如果需要请点击目录或者往下翻页查看。<br>
+> 在阅读本章节之前，推荐您先阅读：[如何正确正确使用文档](/docs_usage)。
 
 ## ban
 
@@ -70,7 +65,7 @@ BMI（身体质量指数）计算器。
 
 |命令|格式|别名|描述|权限|
 |-----|-----|-----|-----|-----|
-|`+bmi`|`+bmi <身高(M)> <体重(kg)>`|`+BMI、+身体质量指数`|`计算BMI指数。`|`-`|
+|`+bmi`|`+bmi <身高(M)> <体重(kg)>`|`+BMI`、`+身体质量指数`|`计算BMI指数。`|`-`|
 
 ## bulletin
 
@@ -418,7 +413,7 @@ GitHub处理器。
 |命令|格式|别名|描述|权限|图片示例|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_dh`|`+jx3_dh <条件(多个以空格分割)>`|`+蹲号`|`获取盆栽蹲号的角色价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
-|`+jx3_dh`|`+jx3_wg <条件(多个以空格分割)>`|`+贴吧物价`|`获取盆栽蹲号的外观价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
+|`+jx3_wg`|`+jx3_wg <条件(多个以空格分割)>`|`+贴吧物价`|`获取盆栽蹲号的外观价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
 
 ### 服务器内信息类
 

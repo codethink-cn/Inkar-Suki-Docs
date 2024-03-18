@@ -12,7 +12,7 @@
 
 `Inkar Suki`是开源的项目！他的项目地址为：`codethink-cn/Inkar-Suki`，位于`GitHub`，[点击传送](https://github.com/codethink-cn/Inkar-Suki)。
 
-`Inkar Suki`按`GPL-3.0`协议开源。不允许任何商用行为，如果您基于我们的代码再次开发，记得也要遵守该协议哦，如果您参与了音卡的开发，在您拥有`Inkar Suki`仓库`Write`权限的时候，可以不受该协议拘束，如果被移除开发组，则需要将代码以同样的方式再次开源。
+`Inkar Suki`按`GPL-3.0`协议开源。不允许任何商用行为，如果您基于我们的代码再次开发，记得也要遵守该协议哦，如果您参与了音卡的开发，在您拥有`Inkar Suki`仓库`Write`权限的时候，可以不受该协议拘束，如果被移出开发组，则需要将代码以同样的方式再次开源。
 
 欢迎加入我们的[用户群（650495414）](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1AeM7W5zCz34kq0OSWzEkBn96cU52ml-&authKey=RKa4ldeu8D%2F59RyUhdjJtahBv98CpFdsW%2F8foQsh62QwYm69Zv0GfWyYAYXUsJJ0&noverify=0&group_code=650495414)。
 
