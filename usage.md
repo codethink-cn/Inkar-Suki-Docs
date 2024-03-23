@@ -255,7 +255,7 @@ GitHub处理器。
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_subscribe`|`+jx3_subscribe <内容>`|`+订阅`、`+开启`|`订阅事件推送。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_subscribe.png)|
 |`+jx3_unsubscribe`|`+jx3_unsubscribe <内容>`|`+退订、关闭`|`取消订阅事件推送。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_unsubscribe.png)|
-|`+jx3_about`|`+jx3_about`|`+关于`|`查看群聊功能开关等信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_about.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_about_response.jpg)|
+|`+jx3_about`|`+jx3_about`|`+关于`|`查看群聊功能开关等信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_about.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_about_response.png)|
 
 > 可供订阅的内容或附加功能可以在订阅任意一项后，使用`+关于`查看。
 
