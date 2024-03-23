@@ -295,7 +295,7 @@ GitHub处理器。
 |`+jx3_machi`|`+jx3_machi <服务器> <ID> <成就\|副本>`|`+进度`|`获取某一个副本的成就进度。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_response.jpg)|
 |`+jx3_achievement_v2`|`+jx3_achievement_v2 <服务器> <ID> <成就\|副本>`|`+进度v2`|`获取某成就或某副本的进度（重写）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2_response.jpg)|
 |`+jx3_zoneachi`|`+jx3_zoneachi <服务器> <ID> <副本> [难度]`|`+团本成就`|`获取某副本所有成就的完成进度。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi_response.jpg)|
-|`+jx3_zone_detail`|`+jx3_zone_detail <服务器> <ID>`|`+副本总览`|`获取个人副本总览概况。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail_response.png)|
+|`+jx3_zone_detail`|`+jx3_zone_detail <服务器> <ID>`|`+副本总览`|`获取个人副本总览资历概况。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail_response.png)|
 
 #### 个人副本通关记录
 
