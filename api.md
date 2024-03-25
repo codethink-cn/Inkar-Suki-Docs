@@ -802,14 +802,16 @@ https://inkar-suki.codethink.cn/lagrange
     "net": "8.0",
     "musl": false
 }
+```
 
 > `os`、`platform`均为必选参数。<br>
 > `net`、`musl`均为可选参数。
 
 > 返回样例
+
+```json
 {
     "code": 200,
     "data": "https://productionresultssa12.blob.core.windows.net/actions-results/de82b6b5-c00a-47b7-986e-b10749f93d70/workflow-job-run-68eff7cc-7efd-56c8-0853-73f284dbdacc/artifacts/987ecb070cc7d8c8348225a4b431222e24c3e6ac4361e5ff0a23a6e8463c134b.zip?rscd=attachment%3B+filename%3D%22Lagrange.OneBot_linux-arm64_7.0.zip%22&se=2024-03-25T07%3A25%3A32Z&sig=GMQJ0F5JfqLAjMzwc7psNybvBfkgJdUuPcunH04oz%2Bo%3D&sp=r&spr=https&sr=b&st=2024-03-25T07%3A15%3A27Z&sv=2021-12-02"
 }
-```json
 ```
