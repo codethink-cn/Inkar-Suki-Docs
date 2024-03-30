@@ -78,6 +78,19 @@ BMI（身体质量指数）计算器。
 |`+喜报`|`+喜报 <文字(20以内)>`|`+喜报`|`生成喜报图片`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/bulletin_good.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/bulletin_good_response.jpg)|
 |`+悲报`|`+悲报 <文字(20以内)>`|`+悲报`|`生成悲报图片。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/bulletin_bad.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/bulletin_bad_response.jpg)|
 
+## dice
+
+掷骰子工具。
+
+> 贡献者：`DoroWolf`。
+
+|命令|格式|别名|描述|权限|图片|
+|-----|-----|-----|-----|-----|-----|
+|`+rd`|`+喜报 <骰子表达式> [<DC>]`|`+掷骰子`|`投掷指定骰子`|`-`|`暂无`|
+
+> 如果输入DC，则会检定骰子面数是否小于DC，若符合要求则输出成功，反之失败。<br>
+> 骰子表达式格式由于篇幅问题，请参见[此处](https://bot.teahouse.team/dice/%E9%AA%B0%E5%AD%90%E8%A1%A8%E8%BE%BE%E5%BC%8F)。~其实是懒得写了~
+
 ## developer_tools
 
 用于给`开发者`进行调试的插件。
