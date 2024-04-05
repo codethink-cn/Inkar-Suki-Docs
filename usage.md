@@ -290,6 +290,7 @@ GitHub处理器。
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_serendipity`|`+jx3_serendipity <服务器> <ID>`|`+奇遇`、`+查询`|`获取个人奇遇记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu_response.jpg)|
 |`+jx3_serendipity_v2`|`+jx3_serendipity_v2 <服务器> <ID>`|`+奇遇v2`|`获取个人奇遇记录（过滤宠物奇遇）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_serendipity.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_serendipity_response.png)|
+|`+jx3_pet_serendipity`|`+jx3_pet_serendipity <服务器> <ID>`|`+宠物奇遇`|`获取个人宠物奇遇记录（过滤普通和绝世奇遇）。`|`-`|`暂无`|
 
 
 #### 查询个人装备属性
