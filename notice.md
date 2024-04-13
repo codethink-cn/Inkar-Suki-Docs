@@ -1,12 +1,14 @@
 # 公告
 
-## 关于2024年1月底，有开发者被移出`Inkar Suki`开发组的事宜
+## “平凡的名字”抄袭音卡
 
-音卡的仓库名称：`codethink-cn/Inkar-Suki`
+**如果你从Nonebot 2群聊看到本页面，请立即将群内平凡的名字（331945833）进行拉黑，因为其是一个彻头彻尾的抄袭GPLv3并设置Private的违规开发者！**
+
+音卡的仓库名称：`codethink-cn/Inkar-Suki`。
 
 `Inkar Suki`不做介绍，请移步首页，以下简称为`IKS`。
 
-主要涉及人员为`平凡的名字`，QQ号为`33******3`（为保护隐私已做部分略去），`GitHub`用户名为`Serfend`（以下简称`SF`）。
+主要涉及人员为`平凡的名字`，QQ号为`331945833`，`GitHub`用户名为`Serfend`（以下简称`SF`）。
 
 此外就是`HornCopper`，全网同名（除`剑网3`，不过无关紧要，以下简称`HC`），是本仓库主要维护者、`CodeThink`成员。
 
@@ -50,9 +52,11 @@
 
 此处纯属造谣，欢迎点击下方查看各种证据。
 
-- [证据1-关于HC的账单](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/关于欠款不还（账单）.png)
-- [证据2-微信聊天记录](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/关于欠款不还（微信）.png)
-- [证据3-QQ聊天记录](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/关于欠款不还（QQ）.jpg)
+![证据1-关于HC的账单](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/关于欠款不还（账单）.png)
+
+![证据2-微信聊天记录](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/关于欠款不还（微信）.png)
+
+![证据3-QQ聊天记录](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/关于欠款不还（QQ）.jpg)
 
 此外，脱离开发是早有的事情，背刺的种子酝酿已久，[点击查看](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/背刺原来是预谋已久.jpg)。
 
@@ -62,12 +66,22 @@
 
 而`SF`的思想前卫，不仅打算效仿其付费看广告的机制，还准备与其进行合作，声称没有永恒的敌人，另外如果`HC`不出面阻止，`SF`说不定已经推出`PRO`版（人话：收费）了。
 
-- [证据4-谁看你这破文档](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/谁看你这破文档.png)
-- [证据5-文档不更新](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/文档不更新.png)
-- [证据6-规范让人疏远](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/规范疏远.png)
+![证据4-谁看你这破文档](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/谁看你这破文档.png)
+
+![证据5-文档不更新](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/文档不更新.png)
+
+![证据6-规范让人疏远](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/规范疏远.png)
 
 关于证据5，实则不然，`HC`一直在努力补全功能截图，力争早日为用户提供合适的样例和示范图。
 
 `IKS`是开源的，免费的，无论出于何种原因，`收费`对于我们而言永远是最下策，而`SF`的开发理念与我们不合，故将该开发人员移出我们的开发组，我们的确需要一个高水平的人参与，不过我们同时也需要他具有基本的开发素质。
 
 目前，`SF`开发了所谓[音卡二代](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/求你了哥别用音卡招摇撞骗了.jpg)并在魔盒发帖，点击查看[快照](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/快照.png)，对此我们将坚决抵制！
+
+![逆天言论1-破坏者竟成黑奴](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/逆天言论1.png)
+
+有必要澄清，`SF`所做的更改已经全部被移除，而`HC`的代码仍在`SF`盗版的`蓉蓉`机器人中。
+
+![逆天言论2-高中生竟成资本家](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/规范疏远.png)
+
+没有必要反思，因为不是`HC`的问题。
