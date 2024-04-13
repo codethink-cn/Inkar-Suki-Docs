@@ -78,10 +78,10 @@
 
 目前，`SF`开发了所谓[音卡二代](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/求你了哥别用音卡招摇撞骗了.jpg)并在魔盒发帖，点击查看[快照](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/快照.png)，对此我们将坚决抵制！
 
-![逆天言论1-破坏者竟成黑奴](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/逆天言论1.png)
+![逆天言论1-破坏者竟成黑奴](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/逆天言论1.jpg)
 
 有必要澄清，`SF`所做的更改已经全部被移除，而`HC`的代码仍在`SF`盗版的`蓉蓉`机器人中。
 
-![逆天言论2-高中生竟成资本家](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/规范疏远.png)
+![逆天言论2-高中生竟成资本家](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/逆天言论2.jpg)
 
 没有必要反思，因为不是`HC`的问题。
