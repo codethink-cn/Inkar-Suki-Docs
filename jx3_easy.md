@@ -6,11 +6,11 @@
 
 **文档里面的大括号，中括号，小括号，麻烦各位实际使用的时候不要打进去，只是起一个标记的作用，表示这是一个参数，不是命令的一部分。**
 
-------
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ## 服务器和新闻类
 
-------
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 绑定群聊
 
@@ -20,7 +20,7 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_bind.png)
 
-------
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 获取新闻列表
 
@@ -28,7 +28,7 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_news.png)
 
-------
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 获取开服信息
 
@@ -36,7 +36,7 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_server_status.png)
 
-------
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 获取日常
 
@@ -48,7 +48,7 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_calendar.png)
 
-------
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 功能开关
 
@@ -64,7 +64,7 @@
 
 > 什么是`订阅内容`？简而言之，参考下面的命令（`关于`），回复的图片中有很多小方框，订阅内容就是他们的标题，一次可以订阅多个内容，以空格分割即可，例如`订阅 玄晶 抓马 扶摇`，退订同理。
 
-------
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 #### 查看本群订阅信息
 
@@ -72,7 +72,7 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_about.png)
 
-------
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 维护公告/更新查看
 
