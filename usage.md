@@ -6,6 +6,28 @@
 
 > 在阅读本章节之前，推荐您先阅读：[如何正确使用文档](/docs_usage)。
 
+您可以在下面选择您要查看的模块：
+- [ban(封禁系统)](/111ban)
+- [blacklist(群避雷系统)](/111blacklist)
+- [bmi(BMI计算器)](/111bmi)
+- [bulletin(喜报悲报)](/111bulletin)
+- [dice(简易骰娘)](/111dice)
+- [developer_tools(开发者工具)](/111developer_tools)
+- [drifting(漂流瓶)](/111drifting)
+- [event_notice(事件通知)](/111event_notice)
+- [github(GitHub)](/111github)
+- [grab(今天吃什么)](/111grab)
+- [jx3(剑网3)](/111jx3)
+- [minecraft(MC)](/111minecraft)
+- [music(点歌)](/111music)
+- [nbnhhsh(缩写查询)](/nbnhhsh)
+- [op(权限管理)](/111op)
+- [poem(对诗)](/111poem)
+- [sign(签到)](/111sign)
+- [twenty_four(24点小游戏)](/111twenty_four)
+- [wiki(Wiki搜索)](/111wiki)
+
+
 ## ban
 
 `Inkar Suki`封禁系统。
@@ -432,7 +454,8 @@ GitHub处理器。
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_response.jpg)|
+|`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格（不支持无封）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_response.jpg)|
+|`+jx3_wufeng`|`+jx3_trade <服务器> <词条>`|`+交易行无封`|`获取交易行无封数据。`|`-`|`暂无`|
 
 #### 盆栽蹲号/蹲外观
 
