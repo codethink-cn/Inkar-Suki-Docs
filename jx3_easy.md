@@ -2,9 +2,9 @@
 
 **本篇目为主章节的简化版，相信幼儿园毕业也可以看懂，如果仍有问题，请前往文档首页并加入我们的用户群。**
 
-> 当群聊绑定服务器后，命令中`必选`的`服务器`（或写为`区服`）均为`可选`，也就是可以不填写，有特殊说明的除外。
+> 当群聊绑定服务器后，- 命令中`必选`的`服务器`（或写为`区服`）均为`可选`，也就是可以不填写，有特殊说明的除外。
 
-**文档里面的大括号，中括号，小括号，麻烦各位实际使用的时候不要打进去，只是起一个标记的作用，表示这是一个参数，不是命令的一部分。**
+**文档里面的大括号，中括号，小括号，麻烦各位实际使用的时候不要打进去，只是起一个标记的作用，表示这是一个参数，不是- 命令的一部分。**
 
 如果觉得不错的话，点击[这里](/donate)支持下音卡宝宝，~~求求了QAQ~~
 
@@ -16,7 +16,7 @@
 
 ### 绑定群聊
 
-命令：`绑定 [服务器]`
+- 命令：`绑定 [服务器]`
 
 !> 如果只发送`绑定`二字（也就是服务器为空），则是清除本群的绑定。
 
@@ -26,7 +26,7 @@
 
 ### 获取新闻列表
 
-命令：`新闻`
+- 命令：`新闻`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_news.png)
 
@@ -34,7 +34,7 @@
 
 ### 获取开服信息
 
-命令：`开服 <服务器>`
+- 命令：`开服 <服务器>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_server_status.png)
 
@@ -42,13 +42,13 @@
 
 ### 获取日常
 
-命令：`日常`
+- 命令：`日常`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_daily.png)
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
-命令：`剑三日历`或者`活动日历`
+- 命令：`剑三日历`或者`活动日历`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_calendar.png)
 
@@ -60,23 +60,23 @@
 
 #### 订阅推送/开关功能
 
-命令：`订阅 <订阅内容>`或者`开启 <订阅内容>`
+- 命令：`订阅 <订阅内容>`或者`开启 <订阅内容>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_subscribe.png)
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
-命令：`退订 <订阅内容>`或者`关闭 <订阅内容>`
+- 命令：`退订 <订阅内容>`或者`关闭 <订阅内容>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_unsubscribe.png)
 
-> 什么是`订阅内容`？简而言之，参考下面的命令（`关于`），回复的图片中有很多小方框，订阅内容就是他们的标题，一次可以订阅多个内容，以空格分割即可，例如`订阅 玄晶 抓马 扶摇`，退订同理。
+> 什么是`订阅内容`？简而言之，参考下面的- 命令（`关于`），回复的图片中有很多小方框，订阅内容就是他们的标题，一次可以订阅多个内容，以空格分割即可，例如`订阅 玄晶 抓马 扶摇`，退订同理。
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 #### 查看本群订阅信息
 
-命令：`关于`
+- 命令：`关于`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_about.png)
 
@@ -84,7 +84,7 @@
 
 ### 维护公告/更新查看
 
-命令：`维护公告`或者`更新公告`或者`公告`或者`更新`
+- 命令：`维护公告`或者`更新公告`或者`公告`或者`更新`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_announce.png)
 
@@ -96,25 +96,25 @@
 
 ### 查询个人奇遇
 
-命令：`奇遇v1 <服务器> <ID>`或者`查询v1 <服务器> <ID>`
+- 命令：`奇遇v1 <服务器> <ID>`或者`查询v1 <服务器> <ID>`
 
-**该命令会给出所有奇遇！**
+**该- 命令会给出所有奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu.png)
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
-命令：`奇遇 <服务器> <ID>`或者`查询 <服务器> <ID>`
+- 命令：`奇遇 <服务器> <ID>`或者`查询 <服务器> <ID>`
 
-**该命令会过滤宠物奇遇！**
+**该- 命令会过滤宠物奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_serendipity.png)
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
-命令：`宠物奇遇 <服务器> <ID>`
+- 命令：`宠物奇遇 <服务器> <ID>`
 
-**该命令会过滤非宠物奇遇！**
+**该- 命令会过滤非宠物奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_pet_serendipity.png)
 
@@ -122,19 +122,19 @@
 
 ### 查询个人装备属性和基本信息
 
-命令：`属性v1 <服务器> <ID>`或者`查装v1 <服务器> <ID>`
+- 命令：`属性v1 <服务器> <ID>`或者`查装v1 <服务器> <ID>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute.png)
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
-命令：`属性 <服务器> <ID>`或者`查装 <服务器> <ID>`
+- 命令：`属性 <服务器> <ID>`或者`查装 <服务器> <ID>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute2.png)
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
-命令：`玩家信息 <服务器> <ID>`
+- 命令：`玩家信息 <服务器> <ID>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_playerinfo.png)|
 
@@ -142,28 +142,28 @@
 
 ### 查询个人成就/资历/进度类
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_machi`|`+jx3_machi <服务器> <ID> <成就\|副本>`|`+进度`|`获取某一个副本的成就进度。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_response.jpg)|
 |`+jx3_achievement_v2`|`+jx3_achievement_v2 <服务器> <ID> <成就\|副本>`|`+进度v2`|`获取某成就或某副本的进度（重写）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2_response.jpg)|
 |`+jx3_zoneachi`|`+jx3_zoneachi <服务器> <ID> <副本> [难度]`|`+团本成就`|`获取某副本所有成就的完成进度。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi_response.jpg)|
 |`+jx3_zone_detail`|`+jx3_zone_detail <服务器> <ID>`|`+副本总览`|`获取个人副本总览资历概况。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail_response.png)|
 
-> 在`+jx3_zoneachi`命令中，如果省略`难度`参数，则为`10人普通`。
+> 在`+jx3_zoneachi`- 命令中，如果省略`难度`参数，则为`10人普通`。
 
-> 在`+jx3_machi`命令中，成就允许填写单个成就，请勿使用俗称等非准确名称。<br>
+> 在`+jx3_machi`- 命令中，成就允许填写单个成就，请勿使用俗称等非准确名称。<br>
 > `副本`支持格式：`25人英雄范阳夜变`（示例）。<br>
-> 对于`敖龙岛`以前（不含）的副本，建议使用单成就查询，或使用`团本成就`命令。
+> 对于`敖龙岛`以前（不含）的副本，建议使用单成就查询，或使用`团本成就`- 命令。
 
 ### 个人副本通关记录
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_zones`|`+jx3_zones <服务器> <ID>`|`+副本`|`获取副本通关记录`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zone.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zone_response.jpg)|
 
 ### 个人烟花收放记录
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_firework_v2`|`+jx3_firework_v2 <服务器> <ID>`|`+烟花v2`|`获取个人烟花收发记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_firework.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_firework_response.jpg)|
 
@@ -171,19 +171,19 @@
 
 ### 名剑大会
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_arena 战绩`|`+jx3_arena 战绩 <服务器> <ID> [模式]`|`+名剑 战绩`|`获取名剑大会个人战绩。`|`-`|`暂无`|
 |`+jx3_arena 排行`|`+jx3_arena 排行 <模式> <ID>`|`+名剑 排行`|`获取名剑大会排行。`|`-`|`暂无`|
 |`+jx3_arena 统计`|`+jx3_arena 统计 <模式> <ID>`|`+名剑 统计`|`获取名剑大会统计信息。`|`-`|`暂无`|
 
-> 在`+jx3_arena`命令中，当第一参数为`战绩`时，第二参数为`服务器`，第三参数为`ID`，第四参数为**可选**的`模式`（默认为`22`）。<br>
+> 在`+jx3_arena`- 命令中，当第一参数为`战绩`时，第二参数为`服务器`，第三参数为`ID`，第四参数为**可选**的`模式`（默认为`22`）。<br>
 > 当第一参数为`排行`或`统计`时，第二参数为`模式`，没有第三参数。
 > `模式`接受的值：`22`、`33`、`55`。
 
 ### 骗子查询
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_cheater`|`+jx3_cheater <QQ>`|`+骗子`、`+查人`|`获取某个QQ的贴吧记录。`|`-`|`暂无`|
 
@@ -192,19 +192,19 @@
 
 ### 科举答案查询
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_exam`|`+jx3_exam <问题关键词>`|`+科举`|`获取科举答案。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_exam.png)|
 
 ### 阵眼效果查询
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_matrix`|`+jx3_matrix <心法>`|`+阵眼`|`获取阵眼效果。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_martix.png)|
 
 ### 心法所有技能
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_skill`|`+jx3_skill <心法> <技能>`|`+技能`|`获取技能。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_skill.png)|
 
@@ -212,25 +212,25 @@
 
 ### 获取特定奇穴信息
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_talent`|`+jx3_talent <心法> <奇穴> [赛季]`|`+奇穴`|`获取奇穴信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_talent.png)|
 
 ### 获取BUFF效果
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_buff`|`+jx3_buff <buff>`|`+buff`、`+debuff`|`获取buff信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_buff.png)|
 
 ### 获取宠物信息
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_pet`|`+jx3_pet`|`+宠物 <名称>`|`获取宠物信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_pet.png)|
 
 ### 获取成就信息
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_adventure`|`+jx3_adventure <成就>`|`+成就`|`获取成就信息（真的只有信息）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_achi.png)|
 
@@ -238,27 +238,27 @@
 
 ### 获取任务信息
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_task`|`+jx3_task`|`+任务 <任务名>`|`查询任务信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_task.png)|
 
-### 获取宏命令
+### 获取宏- 命令
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_macro`|`+jx3_macro <心法>`|`+宏v1`|`查询宏命令。`|`-`|`暂无`|
-|`+jx3_macro_v2`|`+jx3_macro_v2 <心法>`|`+宏`|`查询宏命令（对接魔盒）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_macro.png)||
+|`+jx3_macro`|`+jx3_macro <心法>`|`+宏v1`|`查询宏- 命令。`|`-`|`暂无`|
+|`+jx3_macro_v2`|`+jx3_macro_v2 <心法>`|`+宏`|`查询宏- 命令（对接魔盒）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_macro.png)||
 
 ### 统战YY
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_duowan`|`+jx3_duowan <区服>`|`+统战`|`查询目标区服统战YY。`|`-`|`暂无`|
 
 
 ## 娱乐类
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_random`|`+jx3_random`|`+骚话`|`获取剑网3“万花谷”频道骚话。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_saohua.png)|
 |`+jx3_tiangou`|`+jx3_tiangou`|`+舔狗`|`获取舔狗日志。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_tiangou.png)|
@@ -267,26 +267,26 @@
 
 ### 查看金价
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_demon`|`+jx3_demon`|`+金价 <服务器>`|`获取金价。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_demon.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_demon_response.jpg)|
 
 ### 外观物价
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_price`|`+jx3_price`|`+物价 <物品>`|`获取外观物价。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_feiniu_wujia.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_feiniu_wujia_response.jpg)|
 
 ### 交易行物品价格
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格（不支持无封）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_response.jpg)|
 |`+jx3_wufeng`|`+jx3_trade <服务器> <词条>`|`+交易行无封`|`获取交易行无封数据。`|`-`|`暂无`|
 
 ### 盆栽蹲号/蹲外观
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_dh`|`+jx3_dh <条件(多个以空格分割)>`|`+蹲号`|`获取盆栽蹲号的角色价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
 |`+jx3_wg`|`+jx3_wg <条件(多个以空格分割)>`|`+贴吧物价`|`获取盆栽蹲号的外观价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
@@ -295,7 +295,7 @@
 
 ### 全服奇遇查询
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_statistical`|`+jx3_statistical <服务器> [奇遇]`|`+近期奇遇`|`获取服务器近期奇遇。`|`-`|`暂无`|
 |`+jx3_gserendipity`|`+jx3_gserendipity <奇遇>`|`+全服奇遇`|`获取各服特定奇遇记录。`|`-`|`暂无`|
@@ -303,13 +303,13 @@
 
 ### 阵营沙盘
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_sandbox`|`+jx3_sandbox <服务器>`|`+沙盘`|`获取沙盘。`|`-`|`暂无`|
 
 ### 招募查询
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_recruit`|`+jx3_recruit <服务器> <关键词>`|`+招募v1`|`获取团队招募。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_response.jpg)|
 |`+jx3_recruit_v2`|`+jx3_recruit <服务器> <关键词>`|`+招募`|`获取团队招募。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_v2.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_v2_response.png)|
@@ -321,20 +321,20 @@
 
 ### 抓马信息
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_horse`|`+jx3_horse <服务器>`|`+抓马`、`+马场`|`获取服务器马场信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_horse.png)|
 |`+jx3_dilu`|`+jx3_dilu`|`+的卢统计`|`获取全服的卢刷新、捕获及拍卖信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dilu.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dilu_response.png)|
 
 ### 副本掉落
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_itemdrop`|`+jx3_itemdrop <服务器> <物品>`|`+掉落`|`获取副本掉落特殊物品。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_itemdrop.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_itemdrop_response.png)|
 
 ## 榜单类
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_top100`|`+jx3_top100 <服务器> <BOSS> [团队]`|`+百强`|`获取魔盒秘境百强团信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_top100.png)|
 |`+jx3_rank`|`+jx3_rank <个人\|帮会\|战功\|试炼> <服务器> <类型\|门派>`|`+榜单`|`获取榜单。`|`-`|`暂无`|
@@ -354,7 +354,7 @@
 
 ### 楚天云从
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_zhue`|`+jx3_zhue`|`+诛恶`|`获取服务器近期诛恶记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zhue.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zhue_response.png)|
 |`+jx3_chutian`|`+jx3_chutian`|`+楚天社`|`获取当前楚天社阶段`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_chutian.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_chutian_response.png)|
@@ -362,25 +362,25 @@
 
 ### 挂件详情
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_pendents`|`+jx3_pendents <挂件名称>`|`+挂件`|`获取游戏内挂件详情。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_guajian.png)|
 
 ### 随机表情包
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_emoji`|`+jx3_emoji`|`+随机表情`|`从魔盒取一张随机表情包。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_emoji.png)|
 
 ### 奇遇前置/攻略
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_preposition`|`+jx3_preposition <奇遇>`|`+前置`、`+攻略`|`获取奇遇攻略。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition_response.png)|
 
 ### BOSS掉落物详情
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_drops`|`+jx3_drops <副本> <难度> <BOSS>`|`+掉落列表`|`获取副本掉落列表。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_droplist.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_droplist_response.png)|
 
@@ -388,14 +388,14 @@
 
 ### 推栏推荐配装
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_eqrec`|`+jx3_receq <心法> [标签]`|`+配装v2`|`获取推栏推荐配装。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec_response.png)|
 
 ### 本周百战地图
 
-|命令|格式|别名|描述|权限|图片|
+|- 命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_monster_v2`|`-jx3_monster`|`+百战`|`获取百战BOSS列表。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_monsters.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_monsters_response.png)|
 
-!> 对于`-`开头的命令，即使绑定了服务器也不可以省略服务器，但可以正常映射。<br>
+!> 对于`-`开头的- 命令，即使绑定了服务器也不可以省略服务器，但可以正常映射。<br>
