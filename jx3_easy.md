@@ -6,6 +6,8 @@
 
 **文档里面的大括号，中括号，小括号，麻烦各位实际使用的时候不要打进去，只是起一个标记的作用，表示这是一个参数，不是命令的一部分。**
 
+如果觉得不错的话，点击[这里](/donate)支持下音卡宝宝，~~求求了QAQ~~
+
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ## 服务器和新闻类
@@ -90,26 +92,53 @@
 
 ## 用户数据类
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 ### 查询个人奇遇
 
-|命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_serendipity`|`+jx3_serendipity <服务器> <ID>`|`+奇遇`、`+查询`|`获取个人奇遇记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu_response.jpg)|
-|`+jx3_serendipity_v2`|`+jx3_serendipity_v2 <服务器> <ID>`|`+奇遇v2`|`获取个人奇遇记录（过滤宠物奇遇）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_serendipity.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_serendipity_response.png)|
-|`+jx3_pet_serendipity`|`+jx3_pet_serendipity <服务器> <ID>`|`+宠物奇遇`|`获取个人宠物奇遇记录（过滤普通和绝世奇遇）。`|`-`|`暂无`|
+命令：`奇遇v1 <服务器> <ID>`或者`查询v1 <服务器> <ID>`
 
+**该命令会给出所有奇遇！**
 
-### 查询个人装备属性
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu.png)
 
-|命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_addritube`|`+jx3_addritube <服务器> <ID>`|`+属性v1`、`+查装v1`|`获取角色装备。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute_response.jpg)|
-|`+jx3_addritube_v2`|`+jx3_addritube_v2 <服务器> <ID>`|`+属性`、`+查装`|`获取自身装备属性(重写)。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute2.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute2_response.jpg)|
-|`+jx3_player`|`+jx3_player <服务器> <ID>`|`+玩家信息`|`获取玩家信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_playerinfo.png)|
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
-> 默认属性搜索界面已切换至`v2`。
+命令：`奇遇 <服务器> <ID>`或者`查询 <服务器> <ID>`
 
-!> `v2`的界面以及素材均来自于`JX3BOX`，但是原理**完全不一致**，`JX3BOX`使用`canvas`画布进行绘制，而音卡使用`PIL`手动测绘坐标进行绘制！
+**该命令会过滤宠物奇遇！**
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_serendipity.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+命令：`宠物奇遇 <服务器> <ID>`
+
+**该命令会过滤非宠物奇遇！**
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_pet_serendipity.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 查询个人装备属性和基本信息
+
+命令：`属性v1 <服务器> <ID>`或者`查装v1 <服务器> <ID>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+命令：`属性 <服务器> <ID>`或者`查装 <服务器> <ID>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_attribute2.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+命令：`玩家信息 <服务器> <ID>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_playerinfo.png)|
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 查询个人成就/资历/进度类
 
