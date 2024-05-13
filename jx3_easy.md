@@ -482,40 +482,42 @@
 
 ### 挂件详情
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_pendents`|`+jx3_pendents <挂件名称>`|`+挂件`|`获取游戏内挂件详情。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_guajian.png)|
+- 命令：`挂件 <挂件名>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_guajian.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 随机表情包
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_emoji`|`+jx3_emoji`|`+随机表情`|`从魔盒取一张随机表情包。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_emoji.png)|
+- 命令：`随机表情`
+
+> 音卡的表情随机来自魔盒，如果因此破防而移出音卡，可能会受到封禁。
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_emoji.png)
 
 ### 奇遇前置/攻略
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_preposition`|`+jx3_preposition <奇遇>`|`+前置`、`+攻略`|`获取奇遇攻略。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition_response.png)|
+- 命令：`攻略 <奇遇名>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition.png)
 
 ### BOSS掉落物详情
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_drops`|`+jx3_drops <副本> <难度> <BOSS>`|`+掉落列表`|`获取副本掉落列表。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_droplist.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_droplist_response.png)|
+- 命令：`掉落列表 <副本> <难度> <BOSS名>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_droplist.png)
 
 > 副本和难度支持模糊搜索，例如`牢`（武狱黑牢）、`25pt`（25人普通）、`dmd`（达摩洞）。
 
 ### 推栏推荐配装
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_eqrec`|`+jx3_receq <心法> [标签]`|`+配装v2`|`获取推栏推荐配装。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec_response.png)|
+- 命令：`配装 <心法> <PVE/PVP>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec.png)
 
 ### 本周百战地图
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_monster_v2`|`-jx3_monster`|`+百战`|`获取百战BOSS列表。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_monsters.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_monsters_response.png)|
+- 命令：`百战`
 
-!> 对于`-`开头的- 命令，即使绑定了服务器也不可以省略服务器，但可以正常映射。<br>
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_monsters.png)

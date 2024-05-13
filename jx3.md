@@ -305,7 +305,7 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_preposition`|`+jx3_preposition <奇遇>`|`+前置`、`+攻略`|`获取奇遇攻略。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition_response.png)|
+|`+jx3_preposition`|`+jx3_preposition <奇遇>`|`+前置`、`+攻略`|`获取奇遇攻略。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition.png)|
 
 #### BOSS掉落物详情
 
@@ -319,7 +319,7 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_eqrec`|`+jx3_receq <心法> [标签]`|`+配装v2`|`获取推栏推荐配装。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec_response.png)|
+|`+jx3_eqrec`|`+jx3_receq <心法> [标签]`|`+配装`|`获取推栏推荐配装。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec.png)|
 
 #### 本周百战地图
 
