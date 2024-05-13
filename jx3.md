@@ -33,7 +33,7 @@
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_daily`|`+jx3_daily`|`+日常`|`获取日常\|周常。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_daily.png)|
-|`+jx3_calendar|`+jx3_calendar`|`+活动日历`、`+剑三日历`|`获取7天内日常。`|`-`|`暂无`|
+|`+jx3_calendar|`+jx3_calendar`|`+活动日历`、`+剑三日历`|`获取7天内日常。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_calendar.png)|
 
 #### 功能开关
 
@@ -111,9 +111,9 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_arena 战绩`|`+jx3_arena 战绩 <服务器> <ID> [模式]`|`+名剑 战绩`|`获取名剑大会个人战绩。`|`-`|`暂无`|
-|`+jx3_arena 排行`|`+jx3_arena 排行 <模式>`|`+名剑 排行`|`获取名剑大会排行。`|`-`|`暂无`|
-|`+jx3_arena 统计`|`+jx3_arena 统计 <模式>`|`+名剑 统计`|`获取名剑大会统计信息。`|`-`|`暂无`|
+|`+jx3_arena 战绩`|`+jx3_arena 战绩 <服务器> <ID> [模式]`|`+名剑 战绩`|`获取名剑大会个人战绩。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_arena_record.png)|
+|`+jx3_arena 排行`|`+jx3_arena 排行 <模式>`|`+名剑 排行`|`获取名剑大会排行。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_arena_rank.png)|
+|`+jx3_arena 统计`|`+jx3_arena 统计 <模式>`|`+名剑 统计`|`获取名剑大会统计信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_arena_stastic.png)|
 
 > 在`+jx3_arena`命令中，当第一参数为`战绩`时，第二参数为`服务器`，第三参数为`ID`，第四参数为**可选**的`模式`（默认为`22`）。<br>
 > 当第一参数为`排行`或`统计`时，第二参数为`模式`，没有第三参数。
@@ -123,7 +123,7 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_cheater`|`+jx3_cheater <QQ>`|`+骗子`、`+查人`|`获取某个QQ的贴吧记录。`|`-`|`暂无`|
+|`+jx3_cheater`|`+jx3_cheater <QQ>`|`+骗子`、`+查人`|`获取某个QQ的贴吧记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_cheater.png)|
 
 
 ### 信息查询类
@@ -139,14 +139,6 @@
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_matrix`|`+jx3_matrix <心法>`|`+阵眼`|`获取阵眼效果。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_martix.png)|
-
-#### 心法所有技能
-
-|命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_skill`|`+jx3_skill <心法> <技能>`|`+技能`|`获取技能。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_skill.png)|
-
-> 由于企鹅公司的制裁，该功能可能无法使用。
 
 #### 获取特定奇穴信息
 
@@ -184,14 +176,13 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_macro`|`+jx3_macro <心法>`|`+宏v1`|`查询宏命令。`|`-`|`暂无`|
-|`+jx3_macro_v2`|`+jx3_macro_v2 <心法>`|`+宏`|`查询宏命令（对接魔盒）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_macro.png)||
+|`+jx3_macro_v2`|`+jx3_macro_v2 <心法>`|`+宏`|`查询宏命令（对接魔盒）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_macro.png)|
 
 #### 统战YY
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_duowan`|`+jx3_duowan <区服>`|`+统战`|`查询目标区服统战YY。`|`-`|`暂无`|
+|`+jx3_duowan`|`+jx3_duowan <区服>`|`+统战`|`查询目标区服统战YY。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_duowan.png)|
 
 
 ### 娱乐类
@@ -220,14 +211,14 @@
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格（不支持无封）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_response.jpg)|
-|`+jx3_wufeng`|`+jx3_trade <服务器> <词条>`|`+交易行无封`|`获取交易行无封数据。`|`-`|`暂无`|
+|`+jx3_wufeng`|`+jx3_trade <服务器> <词条>`|`+交易行无封`|`获取交易行无封数据。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_wufeng.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_wufeng_response.png)|
 
 #### 盆栽蹲号/蹲外观
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_dh`|`+jx3_dh <条件(多个以空格分割)>`|`+蹲号`|`获取盆栽蹲号的角色价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
-|`+jx3_wg`|`+jx3_wg <条件(多个以空格分割)>`|`+贴吧物价`|`获取盆栽蹲号的外观价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
+|`+jx3_wg`|`+jx3_wg <条件(多个以空格分割)>`|`+贴吧物价`|`获取盆栽蹲号的外观价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_price_tieba.png)|
 
 ### 服务器内信息类
 

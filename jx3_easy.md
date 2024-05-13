@@ -204,109 +204,159 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_cheater.png)
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ## 信息查询类
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 ### 科举答案查询
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_exam`|`+jx3_exam <问题关键词>`|`+科举`|`获取科举答案。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_exam.png)|
+- 命令：`科举 <问题关键词>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_exam.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 阵眼效果查询
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_matrix`|`+jx3_matrix <心法>`|`+阵眼`|`获取阵眼效果。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_martix.png)|
+- 命令：`阵眼 <心法>`
 
-### 心法所有技能
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_martix.png)
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_skill`|`+jx3_skill <心法> <技能>`|`+技能`|`获取技能。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_skill.png)|
-
-> 由于企鹅公司的制裁，该功能可能无法使用。
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 获取特定奇穴信息
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_talent`|`+jx3_talent <心法> <奇穴> [赛季]`|`+奇穴`|`获取奇穴信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_talent.png)|
+- 命令：`奇穴 <心法> <奇穴名称>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_talent.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 获取BUFF效果
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_buff`|`+jx3_buff <buff>`|`+buff`、`+debuff`|`获取buff信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_buff.png)|
+- 命令：`buff <关键词>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_buff.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 获取宠物信息
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_pet`|`+jx3_pet`|`+宠物 <名称>`|`获取宠物信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_pet.png)|
+- 命令：`宠物 <宠物名>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_pet.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 获取成就信息
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_adventure`|`+jx3_adventure <成就>`|`+成就`|`获取成就信息（真的只有信息）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_achi.png)|
+- 命令：`成就 <关键词>`
 
-> 注意，成就信息是真的只有信息，需要个人进度查询的请查看前文。
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_achi.png)
+
+> 注意，成就信息是真的只有信息，需要个人进度查询的请查看`进度`或者`团本成就`。
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 获取任务信息
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_task`|`+jx3_task`|`+任务 <任务名>`|`查询任务信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_task.png)|
+- 命令：`任务 <关键词>`
 
-### 获取宏- 命令
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_task.png)
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_macro`|`+jx3_macro <心法>`|`+宏v1`|`查询宏- 命令。`|`-`|`暂无`|
-|`+jx3_macro_v2`|`+jx3_macro_v2 <心法>`|`+宏`|`查询宏- 命令（对接魔盒）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_macro.png)||
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 获取宏命令
+
+- 命令：`宏 <心法>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_macro.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 统战YY
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_duowan`|`+jx3_duowan <区服>`|`+统战`|`查询目标区服统战YY。`|`-`|`暂无`|
+- 命令：`统战 <服务器>`
 
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_duowan.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ## 娱乐类
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_random`|`+jx3_random`|`+骚话`|`获取剑网3“万花谷”频道骚话。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_saohua.png)|
-|`+jx3_tiangou`|`+jx3_tiangou`|`+舔狗`|`获取舔狗日志。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_tiangou.png)|
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 随机骚话
+
+- 命令：`骚话`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_saohua.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 舔狗日记
+
+- 命令：`舔狗`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_tiangou.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ## 交易类
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 ### 查看金价
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_demon`|`+jx3_demon`|`+金价 <服务器>`|`获取金价。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_demon.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_demon_response.jpg)|
+- 命令：`金价 <服务器>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_demon.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 外观物价
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_price`|`+jx3_price`|`+物价 <物品>`|`获取外观物价。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_feiniu_wujia.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_feiniu_wujia_response.jpg)|
+- 命令：`物价 <关键词>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_feiniu_wujia.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 交易行物品价格
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_trade`|`+jx3_trade <服务器> <物品>`|`+交易行`|`获取交易行物品价格（不支持无封）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_response.jpg)|
-|`+jx3_wufeng`|`+jx3_trade <服务器> <词条>`|`+交易行无封`|`获取交易行无封数据。`|`-`|`暂无`|
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+#### 一般物品（无封除外）
+
+- 命令：`交易行 <服务器> <关键词>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+#### 无封装备
+
+- 命令：`交易行无封 <服务器> <词条>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_wufeng.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 盆栽蹲号/蹲外观
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_dh`|`+jx3_dh <条件(多个以空格分割)>`|`+蹲号`|`获取盆栽蹲号的角色价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
-|`+jx3_wg`|`+jx3_wg <条件(多个以空格分割)>`|`+贴吧物价`|`获取盆栽蹲号的外观价格。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh_response.jpg)|
+- 命令：`蹲号 <条件>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)
+
+> 如果有多个条件，请以`空格`分割，例如：`蹲号 军萝 蝶金`。
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`贴吧物价 <名称>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_price_tieba.png)
 
 ## 服务器内信息类
 
