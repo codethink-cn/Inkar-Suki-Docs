@@ -226,15 +226,16 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_statistical`|`+jx3_statistical <服务器> [奇遇]`|`+近期奇遇`|`获取服务器近期奇遇。`|`-`|`暂无`|
-|`+jx3_gserendipity`|`+jx3_gserendipity <奇遇>`|`+全服奇遇`|`获取各服特定奇遇记录。`|`-`|`暂无`|
-|`+jx3_gstatistical`|`+jx3_gstatistical <奇遇>`|`+全服统计`|`获取全服特定奇遇记录。`|`-`|`暂无`|
+|`+jx3_statistical`|`+jx3_statistical <服务器> [奇遇]`|`+近期奇遇`|`获取服务器近期奇遇。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recent_serendipity.png)|
+|`+jx3_gserendipity`|`+jx3_gserendipity <奇遇>`|`+全服奇遇`|`获取各服特定奇遇记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_single_serendipity.png)|
+|`+jx3_gstatistical`|`+jx3_gstatistical <奇遇>`|`+全服统计`|`获取全服特定奇遇记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_all_serendipity.png)|
+
 
 #### 阵营沙盘
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_sandbox`|`+jx3_sandbox <服务器>`|`+沙盘`|`获取沙盘。`|`-`|`暂无`|
+|`+jx3_sandbox`|`+jx3_sandbox <服务器>`|`+沙盘`|`获取沙盘。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_sandbox.png)|
 
 #### 招募查询
 
@@ -266,8 +267,7 @@
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_top100`|`+jx3_top100 <服务器> <BOSS> [团队]`|`+百强`|`获取魔盒秘境百强团信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_top100.png)|
-|`+jx3_rank`|`+jx3_rank <个人\|帮会\|战功\|试炼> <服务器> <类型\|门派>`|`+榜单`|`获取榜单。`|`-`|`暂无`|
-
+|`+jx3_rank`|`+jx3_rank <个人\|帮会\|战功\|试炼> <服务器> <类型\|门派>`|`+榜单`|`获取榜单。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_rank.png)|
 !> 由于参数过于多样化，此处不提供图片示例！
 
 > <br>当第一参数为`个人`时，第二参数为`服务器`，第三参数为类型，接受的值：
@@ -277,7 +277,7 @@
 > <br>当第一参数为`阵营`时，第二参数为`服务器`，第三参数为类型，接受的值：
 > <br>`[赛季恶人五十强 赛季浩气五十强 上周恶人五十强 上周浩气五十强 本周恶人五十强 本周浩气五十强]`。<br>
 > <br>当第一参数为`试炼`时，第二参数为`服务器`，第三参数为门派，接受的值：
-> <br>`[万花 七秀 少林 纯阳 天策 五毒 唐门 明教 苍云 长歌 藏剑 丐帮 霸刀 蓬莱 凌雪 衍天 药宗 刀宗]`。<br>
+> <br>`[万花 七秀 少林 纯阳 天策 五毒 唐门 明教 苍云 长歌 藏剑 丐帮 霸刀 蓬莱 凌雪 衍天 药宗 刀宗 万灵]`。<br>
 
 ### 杂类
 

@@ -358,74 +358,127 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_price_tieba.png)
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 ## 服务器内信息类
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 全服奇遇查询
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_statistical`|`+jx3_statistical <服务器> [奇遇]`|`+近期奇遇`|`获取服务器近期奇遇。`|`-`|`暂无`|
-|`+jx3_gserendipity`|`+jx3_gserendipity <奇遇>`|`+全服奇遇`|`获取各服特定奇遇记录。`|`-`|`暂无`|
-|`+jx3_gstatistical`|`+jx3_gstatistical <奇遇>`|`+全服统计`|`获取全服特定奇遇记录。`|`-`|`暂无`|
+- 命令：`近期奇遇 <服务器> <奇遇名>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recent_serendipity.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`全服统计 <奇遇名>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_all_serendipity.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 阵营沙盘
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_sandbox`|`+jx3_sandbox <服务器>`|`+沙盘`|`获取沙盘。`|`-`|`暂无`|
+- 命令：`沙盘 <服务器>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_sandbox.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 招募查询
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_recruit`|`+jx3_recruit <服务器> <关键词>`|`+招募v1`|`获取团队招募。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_response.jpg)|
-|`+jx3_recruit_v2`|`+jx3_recruit <服务器> <关键词>`|`+招募`|`获取团队招募。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_v2.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_v2_response.png)|
-|`+jx3_recruit_local`|`+jx3_recruit_local <服务器> <关键词>`|`+本服招募`|`获取本服的招募，过滤跨服招募。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_local.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_local_response.png)|
+- 命令：`招募v1 <服务器> [关键词]`
+
+> 当`关键词`为空时，返回所有招募。
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`招募 <服务器> [关键词]`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_v2.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`本服招募 <服务器> [关键词]`
+
+> 该命令会过滤掉所有跨服招募。
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_recruit_local.png)
 
 > **附加功能：**`招募过滤`。
 >
-> 对招募的内容进行检测，将疑似广告的招募进行隐藏处理。
+> 对招募的内容进行检测，将疑似广告的招募进行隐藏处理，开启方法：`订阅 招募过滤`，**在招募v1上不生效，只对招募和本服招募有效。**
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 抓马信息
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_horse`|`+jx3_horse <服务器>`|`+抓马`、`+马场`|`获取服务器马场信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_horse.png)|
-|`+jx3_dilu`|`+jx3_dilu`|`+的卢统计`|`获取全服的卢刷新、捕获及拍卖信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dilu.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dilu_response.png)|
+- 命令：`马场 <服务器>`或者`抓马 <服务器>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_horse.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`的卢统计 <服务器>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dilu.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 副本掉落
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_itemdrop`|`+jx3_itemdrop <服务器> <物品>`|`+掉落`|`获取副本掉落特殊物品。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_itemdrop.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_itemdrop_response.png)|
+- 命令：`掉落 <服务器> <物品名称>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_itemdrop.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ## 榜单类
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_top100`|`+jx3_top100 <服务器> <BOSS> [团队]`|`+百强`|`获取魔盒秘境百强团信息。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_top100.png)|
-|`+jx3_rank`|`+jx3_rank <个人\|帮会\|战功\|试炼> <服务器> <类型\|门派>`|`+榜单`|`获取榜单。`|`-`|`暂无`|
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
-!> 由于参数过于多样化，此处不提供图片示例！
+### 魔盒百强
 
-> <br>当第一参数为`个人`时，第二参数为`服务器`，第三参数为类型，接受的值：
-> <br>`[名士五十强 老江湖五十强 兵甲藏家五十强 名师五十强 阵营英雄五十强 薪火相传五十强 庐园广记一百强]`。<br>
-> <br>当第一参数为`帮会`时，第二参数为`服务器`，第三参数为类型，接受的值：
-> <br>`[浩气神兵宝甲五十强 恶人神兵宝甲五十强 浩气爱心帮会五十强 恶人爱心帮会五十强]`。<br>
-> <br>当第一参数为`阵营`时，第二参数为`服务器`，第三参数为类型，接受的值：
-> <br>`[赛季恶人五十强 赛季浩气五十强 上周恶人五十强 上周浩气五十强 本周恶人五十强 本周浩气五十强]`。<br>
-> <br>当第一参数为`试炼`时，第二参数为`服务器`，第三参数为门派，接受的值：
-> <br>`[万花 七秀 少林 纯阳 天策 五毒 唐门 明教 苍云 长歌 藏剑 丐帮 霸刀 蓬莱 凌雪 衍天 药宗 刀宗]`。<br>
+- 命令：`百强 <服务器> <BOSS名> [团队名]`
+
+> 如果团队名为空，则给出该BOSS通关的所有百强团队。
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_top100.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 风云榜单
+
+由于此功能的参数过于多样化，无法对其进行简化，请参考[主文档](/jx3?id=榜单类)！
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ## 杂类
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 ### 楚天云从
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_zhue`|`+jx3_zhue`|`+诛恶`|`获取服务器近期诛恶记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zhue.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zhue_response.png)|
-|`+jx3_chutian`|`+jx3_chutian`|`+楚天社`|`获取当前楚天社阶段`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_chutian.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_chutian_response.png)|
-|`+jx3_yuncong`|`+jx3_yuncong`|`+云从社`|`获取当前云从社阶段`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_yuncong.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_yuncong_response.png)|
+- 命令：`诛恶 <服务器>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zhue.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`楚天社`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_chutian.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`云从社`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_yuncong.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 挂件详情
 
