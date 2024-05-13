@@ -44,6 +44,8 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_daily.png)
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 命令：`剑三日历`或者`活动日历`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_calendar.png)
@@ -52,15 +54,19 @@
 
 ### 功能开关
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 #### 订阅推送/开关功能
 
 命令：`订阅 <订阅内容>`或者`开启 <订阅内容>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_subscribe.png)
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 命令：`退订 <订阅内容>`或者`关闭 <订阅内容>`
 
-![]([](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_unsubscribe.png))
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_unsubscribe.png)
 
 > 什么是`订阅内容`？简而言之，参考下面的命令（`关于`），回复的图片中有很多小方框，订阅内容就是他们的标题，一次可以订阅多个内容，以空格分割即可，例如`订阅 玄晶 抓马 扶摇`，退订同理。
 
@@ -79,6 +85,8 @@
 命令：`维护公告`或者`更新公告`或者`公告`或者`更新`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_announce.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ## 用户数据类
 
