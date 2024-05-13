@@ -4,7 +4,7 @@
 
 > 当群聊绑定服务器后，- 命令中`必选`的`服务器`（或写为`区服`）均为`可选`，也就是可以不填写，有特殊说明的除外。
 
-**文档里面的大括号，中括号，小括号，麻烦各位实际使用的时候不要打进去，只是起一个标记的作用，表示这是一个参数，不是- 命令的一部分。**
+**文档里面的大括号，中括号，小括号，麻烦各位实际使用的时候不要打进去，只是起一个标记的作用，表示这是一个参数，不是命令的一部分。**
 
 如果觉得不错的话，点击[这里](/donate)支持下音卡宝宝，~~求求了QAQ~~
 
@@ -142,50 +142,67 @@
 
 ### 查询个人成就/资历/进度类
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_machi`|`+jx3_machi <服务器> <ID> <成就\|副本>`|`+进度`|`获取某一个副本的成就进度。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_response.jpg)|
-|`+jx3_achievement_v2`|`+jx3_achievement_v2 <服务器> <ID> <成就\|副本>`|`+进度v2`|`获取某成就或某副本的进度（重写）。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2_response.jpg)|
-|`+jx3_zoneachi`|`+jx3_zoneachi <服务器> <ID> <副本> [难度]`|`+团本成就`|`获取某副本所有成就的完成进度。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi_response.jpg)|
-|`+jx3_zone_detail`|`+jx3_zone_detail <服务器> <ID>`|`+副本总览`|`获取个人副本总览资历概况。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail_response.png)|
+- 命令：`进度 <服务器> <ID> <关键词>`
 
-> 在`+jx3_zoneachi`- 命令中，如果省略`难度`参数，则为`10人普通`。
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi.png)
 
-> 在`+jx3_machi`- 命令中，成就允许填写单个成就，请勿使用俗称等非准确名称。<br>
-> `副本`支持格式：`25人英雄范阳夜变`（示例）。<br>
-> 对于`敖龙岛`以前（不含）的副本，建议使用单成就查询，或使用`团本成就`- 命令。
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`进度v2 <服务器> <ID> <关键词>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_machi_v2.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`团本成就 <服务器> <ID> <副本名称(不带难度)> [难度(不写就是10人)]`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zoneachi.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`副本总览 <服务器> <ID>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_detail.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 个人副本通关记录
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_zones`|`+jx3_zones <服务器> <ID>`|`+副本`|`获取副本通关记录`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zone.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zone_response.jpg)|
+- 命令：`副本 <服务器> <ID>`
 
-### 个人烟花收放记录
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_zone.png)
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_firework_v2`|`+jx3_firework_v2 <服务器> <ID>`|`+烟花v2`|`获取个人烟花收发记录。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_firework.png)/[图例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_firework_response.jpg)|
+> 灰色小猫头表示已通过，橘色小猫头表示尚未通过。
 
-!> 尽量不要将该功能用于捉奸等不良行为！
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 名剑大会
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_arena 战绩`|`+jx3_arena 战绩 <服务器> <ID> [模式]`|`+名剑 战绩`|`获取名剑大会个人战绩。`|`-`|`暂无`|
-|`+jx3_arena 排行`|`+jx3_arena 排行 <模式> <ID>`|`+名剑 排行`|`获取名剑大会排行。`|`-`|`暂无`|
-|`+jx3_arena 统计`|`+jx3_arena 统计 <模式> <ID>`|`+名剑 统计`|`获取名剑大会统计信息。`|`-`|`暂无`|
+- 命令：`名剑 战绩 <服务器> <ID> [模式(不填就是22)]`
 
-> 在`+jx3_arena`- 命令中，当第一参数为`战绩`时，第二参数为`服务器`，第三参数为`ID`，第四参数为**可选**的`模式`（默认为`22`）。<br>
-> 当第一参数为`排行`或`统计`时，第二参数为`模式`，没有第三参数。
-> `模式`接受的值：`22`、`33`、`55`。
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_arena_record.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`名剑 排行 <模式>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_arena_rank.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+- 命令：`名剑 统计 <模式>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_arena_stastic.png)
+
+> 模式有`22`、`33`和`55`。
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 骗子查询
 
-|- 命令|格式|别名|描述|权限|图片|
-|-----|-----|-----|-----|-----|-----|
-|`+jx3_cheater`|`+jx3_cheater <QQ>`|`+骗子`、`+查人`|`获取某个QQ的贴吧记录。`|`-`|`暂无`|
+- 命令：`查人 <QQ号>`或`骗子 <QQ号>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_cheater.png)
 
 
 ## 信息查询类

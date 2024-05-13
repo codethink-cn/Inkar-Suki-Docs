@@ -26,13 +26,13 @@
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_server`|`+jx3_server <服务器>`|`+服务器`、`+开服`|`获取服务器状态。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_server_status.png)|
+|`+jx3_server`|`+jx3_server <服务器>`|`+开服`|`获取服务器状态。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_server_status.png)|
 
 #### 获取日常
 
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
-|`+jx3_daily`|`+jx3_daily [服务器]`|`+日常`、`+周常`|`获取日常\|周常。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_daily.png)|
+|`+jx3_daily`|`+jx3_daily`|`+日常`|`获取日常\|周常。`|`-`|[示例](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_daily.png)|
 |`+jx3_calendar|`+jx3_calendar`|`+活动日历`、`+剑三日历`|`获取7天内日常。`|`-`|`暂无`|
 
 #### 功能开关
@@ -112,8 +112,8 @@
 |命令|格式|别名|描述|权限|图片|
 |-----|-----|-----|-----|-----|-----|
 |`+jx3_arena 战绩`|`+jx3_arena 战绩 <服务器> <ID> [模式]`|`+名剑 战绩`|`获取名剑大会个人战绩。`|`-`|`暂无`|
-|`+jx3_arena 排行`|`+jx3_arena 排行 <模式> <ID>`|`+名剑 排行`|`获取名剑大会排行。`|`-`|`暂无`|
-|`+jx3_arena 统计`|`+jx3_arena 统计 <模式> <ID>`|`+名剑 统计`|`获取名剑大会统计信息。`|`-`|`暂无`|
+|`+jx3_arena 排行`|`+jx3_arena 排行 <模式>`|`+名剑 排行`|`获取名剑大会排行。`|`-`|`暂无`|
+|`+jx3_arena 统计`|`+jx3_arena 统计 <模式>`|`+名剑 统计`|`获取名剑大会统计信息。`|`-`|`暂无`|
 
 > 在`+jx3_arena`命令中，当第一参数为`战绩`时，第二参数为`服务器`，第三参数为`ID`，第四参数为**可选**的`模式`（默认为`22`）。<br>
 > 当第一参数为`排行`或`统计`时，第二参数为`模式`，没有第三参数。
