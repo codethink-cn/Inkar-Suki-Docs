@@ -4,7 +4,7 @@
     <summary>点击查看</summary>
     <p>本篇目为主章节的简化版，相信幼儿园毕业也可以看懂，如果仍有问题，请前往文档首页并加入我们的用户群。</p>
     <br>
-    <p>当群聊绑定服务器后，- 命令中`必选`的`服务器`（或写为`区服`）均为`可选`，也就是可以不填写，有特殊说明的除外。</p>
+    <p>当群聊绑定服务器后，命令中`必选`的`服务器`（或写为`区服`）均为`可选`，也就是可以不填写，有特殊说明的除外。</p>
     <br>
     <strong>文档里面的大括号，中括号，小括号，麻烦各位实际使用的时候不要打进去，只是起一个标记的作用，表示这是一个参数，不是命令的一部分。</strong>
 </details>
@@ -74,7 +74,7 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_unsubscribe.png)
 
-> 什么是`订阅内容`？简而言之，参考下面的- 命令（`关于`），回复的图片中有很多小方框，订阅内容就是他们的标题，一次可以订阅多个内容，以空格分割即可，例如`订阅 玄晶 抓马 扶摇`，退订同理。
+> 什么是`订阅内容`？简而言之，参考下面的命令（`关于`），回复的图片中有很多小方框，订阅内容就是他们的标题，一次可以订阅多个内容，以空格分割即可，例如`订阅 玄晶 抓马 扶摇`，退订同理。
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
@@ -102,7 +102,7 @@
 
 - 命令：`奇遇v1 <服务器> <ID>`或者`查询v1 <服务器> <ID>`
 
-**该- 命令会给出所有奇遇！**
+**该命令会给出所有奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu.png)
 
@@ -110,7 +110,7 @@
 
 - 命令：`奇遇 <服务器> <ID>`或者`查询 <服务器> <ID>`
 
-**该- 命令会过滤宠物奇遇！**
+**该命令会过滤宠物奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_serendipity.png)
 
@@ -118,7 +118,7 @@
 
 - 命令：`宠物奇遇 <服务器> <ID>`
 
-**该- 命令会过滤非宠物奇遇！**
+**该命令会过滤非宠物奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_pet_serendipity.png)
 
