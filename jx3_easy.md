@@ -556,17 +556,23 @@
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
+### 预定
+
 - 命令：`预定 <关键词> <ID> <职业>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_book.png)
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
+### 取消预定
+
 - 命令：`取消预定 <关键词> <ID>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_unbook.png)
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 查看团队
 
 - 命令：`查看团队 <关键词>`
 
