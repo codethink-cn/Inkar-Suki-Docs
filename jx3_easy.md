@@ -210,6 +210,32 @@
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
+### 情缘系统
+
+该功能不方便提供例图，请自行尝试。
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+#### 绑定情缘
+
+- 命令：`绑定情缘 <自己游戏ID> <对方游戏ID> <对方QQ> [自定义起始时间]`
+
+> 双方的ID都要位于发这条命令的群聊所绑定的服务器中。自定义起始时间接受的格式为：`YYYY-mm-dd`或者`YYYY年mm月dd日`。
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+#### 解绑情缘
+
+- 命令：`解除情缘`
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+#### 生成情缘证书
+
+- 命令：`查看情缘证书`
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 ## 信息查询类
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
