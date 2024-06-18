@@ -4,7 +4,7 @@
     <summary>点击查看</summary>
     <p>本篇目为主章节的简化版，相信幼儿园毕业也可以看懂，如果仍有问题，请前往文档首页并加入我们的用户群。</p>
     <br>
-    <p>当群聊绑定服务器后，- 命令中`必选`的`服务器`（或写为`区服`）均为`可选`，也就是可以不填写，有特殊说明的除外。</p>
+    <p>当群聊绑定服务器后，命令中`必选`的`服务器`（或写为`区服`）均为`可选`，也就是可以不填写，有特殊说明的除外。</p>
     <br>
     <strong>文档里面的大括号，中括号，小括号，麻烦各位实际使用的时候不要打进去，只是起一个标记的作用，表示这是一个参数，不是命令的一部分。</strong>
 </details>
@@ -20,7 +20,7 @@
 
 ### 绑定群聊
 
-- 命令：`绑定 [服务器]`
+- 命令：`绑定 [服务器]`或`绑定区服 [服务器]`
 
 !> 如果只发送`绑定`二字（也就是服务器为空），则是清除本群的绑定。
 
@@ -74,7 +74,7 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_unsubscribe.png)
 
-> 什么是`订阅内容`？简而言之，参考下面的- 命令（`关于`），回复的图片中有很多小方框，订阅内容就是他们的标题，一次可以订阅多个内容，以空格分割即可，例如`订阅 玄晶 抓马 扶摇`，退订同理。
+> 什么是`订阅内容`？简而言之，参考下面的命令（`关于`），回复的图片中有很多小方框，订阅内容就是他们的标题，一次可以订阅多个内容，以空格分割即可，例如`订阅 玄晶 抓马 扶摇`，退订同理。
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
@@ -102,7 +102,7 @@
 
 - 命令：`奇遇v1 <服务器> <ID>`或者`查询v1 <服务器> <ID>`
 
-**该- 命令会给出所有奇遇！**
+**该命令会给出所有奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_qiyu.png)
 
@@ -110,7 +110,7 @@
 
 - 命令：`奇遇 <服务器> <ID>`或者`查询 <服务器> <ID>`
 
-**该- 命令会过滤宠物奇遇！**
+**该命令会过滤宠物奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_serendipity.png)
 
@@ -118,7 +118,7 @@
 
 - 命令：`宠物奇遇 <服务器> <ID>`
 
-**该- 命令会过滤非宠物奇遇！**
+**该命令会过滤非宠物奇遇！**
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_pet_serendipity.png)
 
@@ -207,6 +207,32 @@
 - 命令：`查人 <QQ号>`或`骗子 <QQ号>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_cheater.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 情缘系统
+
+该功能不方便提供例图，请自行尝试。
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+#### 绑定情缘
+
+- 命令：`绑定情缘 <自己游戏ID> <对方游戏ID> <对方QQ> [自定义起始时间]`
+
+> 双方的ID都要位于发这条命令的群聊所绑定的服务器中。自定义起始时间接受的格式为：`YYYY-mm-dd`或者`YYYY年mm月dd日`。
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+#### 解绑情缘
+
+- 命令：`解除情缘`
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+#### 生成情缘证书
+
+- 命令：`查看情缘证书`
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
@@ -338,6 +364,8 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade.png)
 
+> `服务器`还可以是`全服`，此时给出全服价格。
+
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 #### 无封装备
@@ -345,6 +373,8 @@
 - 命令：`交易行无封 <服务器> <词条>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_trade_wufeng.png)
+
+> `服务器`还可以是`全服`，此时给出全服价格。
 
 <div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
@@ -500,11 +530,15 @@
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_emoji.png)
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 ### 奇遇前置/攻略
 
 - 命令：`攻略 <奇遇名>`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_preposition.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### BOSS掉落物详情
 
@@ -514,14 +548,60 @@
 
 > 副本和难度支持模糊搜索，例如`牢`（武狱黑牢）、`25pt`（25人普通）、`dmd`（达摩洞）。
 
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
 ### 推栏推荐配装
 
 - 命令：`配装 <心法> <PVE/PVP>`
 
+> `心法`和`标签`可以反过来写。
+
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_equiprec.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
 
 ### 本周百战地图
 
 - 命令：`百战`
 
 ![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_monsters.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+## 开团辅助
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 创建团队
+
+- 命令：`创建团队 <关键词>`
+
+> 该关键词至关重要，开团工具所有的命令都会使用该关键词。
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_create.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 预定
+
+- 命令：`预定 <关键词> <ID> <职业>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_book.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 取消预定
+
+- 命令：`取消预定 <关键词> <ID>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_unbook.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
+
+### 查看团队
+
+- 命令：`查看团队 <关键词>`
+
+![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_lookup.png)
+
+<div style="border-top: 1px solid black; margin-top: 20px; margin-bottom: 20px;"></div>
