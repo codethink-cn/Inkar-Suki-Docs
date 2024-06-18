@@ -19,7 +19,7 @@
 ## 环境配置
 
 `Inkar Suki`需要以下内容：
-* Python
+* Python（3.8+）
 * 任意`Onebot V11`协议端（例如：`Go-CQHTTP`，`Lagrange`等）
 * [Git](https://git-scm.com/)
 
@@ -72,7 +72,7 @@ fastapi_reload = true
 
 下面是示例配置的代码，可以复制后自行使用。填写完毕后，请将文件名改为`config.py`，因为`Inkar Suki`会读取该文件。
 
-```python
+```python3
 import os
 import inspect
 
