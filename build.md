@@ -10,225 +10,135 @@
 
 > 请`仔细且完整`地阅读完毕整个文档，如果发生基础错误且文档内有出示我们可能不会为您提供支持或服务。
 
-## 下载
+## 下载本体
 
-### 环境配置
+使用`Git`从仓库拉取，或者直接下载压缩包（`Lastest`或`Releases`）。
+
+推荐使用`Git`拉取，因为可以随时更新。
+
+## 环境配置
 
 `Inkar Suki`需要以下内容：
-* Python
-* 任意`Onebot V11`协议端
+* Python（3.8+）
+* 任意`Onebot V11`协议端（例如：`Go-CQHTTP`，`Lagrange`等）
 * [Git](https://git-scm.com/)
 
 如果`Python`[官网](https://www.python.org)缓慢或无法访问，可以前往淘宝的`Python`镜像站：[传送门](https://registry.npmmirror.com/binary.html?path=python/)。
 
-> 请注意，`Inkar Suki`所需的`Python`版本至少为`3.8`，不建议使用`3.10+`，但仍然可用。
+> 推荐使用`conda`对`Python`进行管理，关于如何配置`conda`，请自行搜索。关于如何安装`Python`，也请自行搜索。
 
-`Onebot V11`实现的协议端有诸多选择，例如`Go-CQHTTP`等，~~此处以`Go-CQHTTP`为例。~~
+首先切换至`Inkar Suki`的主目录，使用`ls`可以发现目录下有`requirements.txt`，使用以下命令安装依赖即可：
+```bash
+pip install -r requirements.txt
+```
 
-~~`Go-CQHTTP`项目地址：`Mrs4s/go-cqhttp`（[传送门](https://github.com/Mrs4s/go-cqhttp)），请下载最新版本。~~
+安装完毕后，安装`Playwright`的依赖：
+```bash
+playwright install-deps`
+```
 
-> ~~亦可选择使用`nonebot-plugin-gocqhttp`，这样可以不再自己搭建`Go-CQHTTP`，但是需要自行配置该插件，项目地址：`mnixry/nonebot-plugin-gocqhttp`（[传送门](https://github.com/mnixry/nonebot-plugin-gocqhttp)）。<br>~~
+随后再安装`Playwright`需要的浏览器：
+```bash
+playwright install
+```
 
-!> ~~由于企鹅公司修改了算法，导致大部分`Go-CQHTTP`会触发风控/封号，无法正常发送消息，请尝试自行搭建签名服务器，详情请见[Go-CQHTTP#2183](https://github.com/Mrs4s/go-cqhttp/issues/2183)。~~
+如果启动时发现`Nonebot`报错，请参考[FAQ](/faq.md)。
 
-`Go-CQHTTP`已经停止维护，您可以考虑使用本页顶部的`Lagrange`进行配置，相关内容请参考：[Go-CQHTTP#2471](https://github.com/Mrs4s/go-cqhttp/issues/2471)。
+## 本体配置
 
-安装好`Python`后，使用`python --version`测试是否安装成功，必要时替换为`python3`。
+理论上其他文件不需要修改，我们只需要关注主目录下的`.env.dev`和`src/tools/config`目录。
 
-> 为什么需求中不列出`Nonebot`？<br>
-> `Inkar Suki`所需要的`Python`库，在`Bot`文件夹使用`pip install -r requirements.txt`即可一键下载，必要时请更改为`pip3`而非`pip`。
+可以直接清空`.env.dev`，然后按需填写下面的内容：
+```
+HOST=0.0.0.0
+PORT=2333
+COMMAND_START=["+","","-"]
+APSCHEDULER_AUTOSTART=true
 
-在使用一键命令安装完毕所有需求的`Python`库之后，请使用`playwright install`安装`Playwright`所需要的库。
+[FastAPI]
+fastapi_reload = true
+```
+
+`HOST`和`PORT`为`Nonebot`的监听地址和端口，请确保和协议端配置的监听地址和端口一致。`Nonebot`默认使用反向`Websocket`与协议端通信。
+
+`COMMAND_START`为命令前缀，如果命令没有其中之一的前缀，那么`on_command`响应器不会被触发，命令也不会被响应。
+
+`fastapi_reload`为`FastAPI`的配置，如果设置为`true`，则会自动监听文件更改，和`git`配合使用，可以省去每次手动重启。
 
 !> 如果您使用`Windows`搭建`Inkar Suki`，请确保`.env.dev`中的`fastapi_reload`的值为`false`，否则`Playwright`库无法正常工作，抛出的错误一般是`NotImplementedError`，详情请见[Nonebot 2官方文档](https://nonebot.dev/docs/advanced/driver#fastapi_reload)。<br>
-表现为使用了浏览器生成图片的所有功能无法使用，使用`PIL`（`Pillow`）的不受此影响。
+表现为使用了浏览器生成图片的所有功能无法使用，使用`PIL`（`Pillow`）的不受此影响。在`Windows`下，可以在启动时使用`--reload`参数实现相同的效果。
 
-### 本体下载
+而`src/tools/config`目录下有示例配置文件：`config_example.py`。
 
-**强烈建议使用`Git`从仓库进行拉取而非自行下载压缩包！**
+下面是示例配置的代码，可以复制后自行使用。填写完毕后，请将文件名改为`config.py`，因为`Inkar Suki`会读取该文件。
 
-#### 从Releases下载
-
-进入[Releases](https://github.com/codethink-cn/Inkar-Suki/releases)，选择任一（最好是最新）版本，下载`Source code`（格式不限），并放置到任一文件夹中解压。
-
-#### 从主页下载
-
-进入仓库[主页](https://github.com/codethink-cn/Inkar-Suki)，点击绿色按钮的`<> Code`，点击`Download ZIP`，获取最新代码，请注意，由于是最新的代码，不确保稳定，~~其实连Releases也不确保是稳定的~~。
-
-#### 从Git下载（强烈推荐）
-
-进入随意文件夹，执行以下命令：
-```
-git clone https://github.com/codethink-cn/Inkar-Suki.git
-```
-
-> 使用Git下载的话，配置最为简便，日后的更新可以通过`git pull`直接实现。<br>
-> 如果使用主页或`Releases`下载，将无法使用`git`相关命令（未配置的情况下）。
-
-### 配置文件
-
-打开我们的`config.sample.py`，使用`vi/vim`、`记事本`、`Visual Studios Code`看个人喜好。
-
-```python
-###############################
-# 请将该文件改为 config.py 后使用
-###############################
-
-from src.tools.local_version import ikv, nbv
-from src.tools.file import get_resource_path
-from pathlib import Path
+```python3
 import os
+import inspect
+
 class Config:
-    '''
-    这里是`Inkar Suki`的配置文件，从`V0.8.3-Hotfix-3起，我们删除了`initialization.py`。
-    取消了问答式配置，改为了用户自己填写。
-    需要您填写的是末尾有注释的行，其他行请勿改动，感谢使用！
-    此处的内容填写完毕后，请将文件名称改为`config.py`~
-    '''
-    config_py_path = __file__[:-10]
-    global_path = config_py_path[:-6]+"/"
+    config_py_path = os.path.abspath(inspect.getfile(inspect.currentframe()))[:-10] # 请勿修改
+    global_path = config_py_path[:-6]+"/" # 请勿修改
 
-    web_path = ""  # GitHub Webhook的地址，填写`/a`，则内网地址为`http://127.0.0.1:<NB端口>/a`，`NB端口`在`.env.dev`中的`PORT`
+    name = "音卡" # 机器人名称，可自定义，推荐使用默认
 
-    bot = [""]  # Bot的QQ号，此处请只填写一个，用`str`存在`list`中。
+    web_path = "/webhook" # GitHub Webhook的地址，如无需求可直接使用默认
 
-    platform = True  # 平台标识，`True`为Linux，`False`为`Windows`
+    platform = True # 平台标识，`True`为Linux，`False`为`Windows`
 
-    owner = [""]  # Bot主人，可以有多个，用`str`存在`list`中
+    owner = [""] # Bot主人，每个元素为QQ号，变量类型为`str`
 
-    size = global_path+"/tools/size.txt"
-    html_path = global_path+"/plugins/help/help.html"
-    chromedriver_path = global_path+"/tools/chromedriver"
-    help_image_save_to = global_path+"/plugins/help/help.png"
-    font_path = Path(get_resource_path(f'font{os.sep}custom.ttf')).as_uri()
+    size = global_path + "/tools/size.txt" # 请勿修改
+    html_path = global_path + "/plugins/help/help.html" # 请勿修改
+    chromedriver_path = global_path + "/tools/chromedriver" # 请勿修改
+    help_image_save_to = global_path + "/plugins/help/help.png" # 请勿修改
+    font_path = "file://"+ global_path + "/assets/font/custom.ttf" # 请勿修改
 
-    cqhttp = ""  # CQHTTP地址，参考`https://go-cqhttp.org`。
+    cqhttp = "" # CQHTTP地址，参考`https://go-cqhttp.org`。
+    # 已弃用，请留空。
 
-    welcome_file = global_path+"/tools/welcome.txt"
-    version = ikv
-    nonebot = nbv
+    proxy = "" # 代理服务器地址，以`http://`开头或`https://`开头，可以跟端口。
+    # 已弃用，请留空。
 
-    proxy = ""  # 代理服务器地址，以`http://`开头或`https://`开头，可以跟端口。
+    auaurl = "" # Arcaea Unlimited API地址
+    # 已弃用，请留空。
 
-    auaurl = ""  # Arcaea Unlimited API地址
+    auatok = "" # Arcaea Unlimited API Token
+    # 已弃用，请留空。
 
-    auatok = ""  # Arcaea Unlimited API Token
-    # 以上两者都请进群：“574250621”
+    jx3api_wslink = "" # JX3API WebSocket地址
+    # 参考`https://www.jx3api.com/`
 
-    jx3api_wslink = ""  # JX3API WebSocket地址
+    jx3api_wstoken = "" # JX3API WebSocket Token
+    # 该值请询问JX3API管理员
 
-    jx3api_wstoken = ""  # JX3API WebSocket Token
+    jx3api_globaltoken = "" # JX3API API Token
+    # 该值请访问`https://store.nicemoe.cn`
+    # 以上三者都请进群：119032235
 
-    jx3api_globaltoken = ""  # JX3API API Token
+    ght = "" # GitHub Personal Access Token
 
-    ght = ""  # GitHub Personal Access Token
-
-    jx3_token = "123"  # 推栏Token，抓包可得
-
-    repo_name = ""  # 该`Inkar-Suki`的副本的来源，若从主仓库克隆，则填写`codethink-cn/Inkar-Suki`，若为fork之后克隆的仓库，则填写`<你的GitHub用户名>/Inkar-Suki`
-
-    jx3api_link = "" #JX3API API链接
-
-    notice_to = [""] # 当音卡触发特定事件时推送到群聊，可以有多个
-
-    inkarsuki_offical_apitoken = "" # 留空即可
+    jx3_token = "" # 推栏Token
+    # 请自行抓包推栏
+    
+    repo_name = "codethink-cn/Inkar-Suki" # 仓库地址
+    # 根据情况而定
+    # 如果使用`Git`从官方仓库拉取，请使用`codethink-cn/Inkar-Suki`
+    # 如果使用`Git`从`Fork`仓库拉取，请使用自定义仓库地址
+    # 如果是压缩包，该值无意义。
+    
+    jx3api_link = "" # JX3API 地址
+    # 访问JX3API官网即可，有时JX3API会更新版本。
+    
+    notice_to = {
+        "your_bot_uin": "admin_group_uin" # 
+    }
+    # key为`Bot`的`QQ`号，value为`Bot`要通知的群号
+    
+    bot = list(notice_to) # 请勿修改
+    
+    inkarsuki_offical_apitoken = "" # 除非是`Inkar Suki`官方，否则请留空
 ```
-
-后面没有注释的代码行可以忽略。
-
-#### web_path
-
-类型：`str`
-
-该值决定`Webhook`的入口地址，填写`/webhook`，则会在`http://127.0.0.1:<ENV.PORT>/webhook`开启`FastAPI`入口。
-
-#### bot
-
-类型：`list`
-
-该值虽为`list`，请只填写一个元素，为`Bot`的`QQ`号，未来可能会支持多机器人。
-
-#### platform
-
-类型：`bool`
-
-若为`True`，则为`Linux`系统，若为`False`，则为`Windows`系统。
-
-!> `Inkar-Suki`的搭建环境不建议使用`Windows`系统，具体原因在`环境配置`中已讲述过，对于`Linux`，我们建议使用`Debian 11/Ubuntu 20.04`及以上系统，因为他们的自带`Python 3`版本较高。
-
-#### owner
-
-类型：`list`
-
-机器人主人列表，元素为`QQ`号，需要**能够**转换为`int`的`str`值。
-
-#### cqhttp
-
-类型：`str`
-
-`Go-CQHTTP`的`HTTP API`地址，一般是内网地址，以`/`结尾，例如：`http://127.0.0.1:80/`。
-
-#### proxy
-
-类型：`str`
-
-代理服务器，仅支持本地代理。
-
-#### auaurl & auatok
-
-类型：`str`
-
-`Arcaea Unlimited API`的`URL`和`Token`，两项均前往`574250621`群内找群主申请。
-
-#### jx3api_wslink & jx3api_wstoken
-#### jx3api_globaltoken & jx3api_link
-
-类型：`str`
-
-参见[JX3API](https://jx3api.com/#/?id=socket)和[神奇的生活馆](https://store.nicemoe.cn/)。
-
-`jx3api_link`以`/`结尾，以`https://`开头，格式同`cqhttp`。
-
-#### jx3_token
-
-类型：`str`
-
-由抓包软件抓取推栏`m.pvp.xoyo.com`数据包的`headers`中`token`字段而得。
-
-#### repo_name
-
-类型：`str`
-
-该`Inkar-Suki`副本的`Repository`来源，格式为`Author/Repository`。
-
-#### ght
-
-类型：`str`
-
-参考[GitHub Personal Access Token](https://github.com/settings/tokens)。
-
-### 权限控制
-
-`Inkar-Suki`自带一套较为完善的权限系统，该权限系统分为`0-10`，共`11`个等级，每个等级对应的特权不同，但高权限包含低权限。
-
-> 只有同时具有`10`级权限以及处于配置文件中`owner`的列表中的用户具有给予`10`级权限的能力。<br>
-
-
-|权限等级|权限内容|备注|
-|-----|-----|-----|
-|`0`|`-`|`-`|
-|`1`|`ping`命令能够回复服务器负载相关信息。<br>能够使用`purge`清除图片缓存。|`-`|
-|`2`|`-`|`-`|
-|`3`|`-`|`-`|
-|`4`|`-`|`-`|
-|`5`|能够自行设置违禁词。<br>免疫违禁词封禁。<br>能够修改入群欢迎语。<br>能够设置自定义`Interwiki`。<br>能够自行设置避雷名单。|`-`|
-|`6`|`-`|`-`|
-|`7`|`-`|`-`|
-|`8`|无须群主/管理员权限亦可绑定群聊的服务器。<br>可以将新群注册或退出某群。<br>|处理申请时会由机器人超管给予`8`级权限以供注册。|
-|`9`|可以使用`echo`和`say`。<br>可以体验内测功能。<br>可以重启`Inkar Suki`。|内测功能的内测资格为`9`级权限。|
-|`10`|除`机器人公告`外所有功能。|`机器人公告`需求权限等级为`owner`。|
-
-> 使用`setop <QQ> <LEVEL>`在聊天中进行权限修改。
 
 ### 完成
 
