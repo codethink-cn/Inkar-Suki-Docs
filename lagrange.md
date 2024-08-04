@@ -192,3 +192,23 @@ sudo ./Lagrange.OneBot
 > 手机扫描登录二维码时，推荐勾选`下次登录无需确认`。
 
 !> `NTQQ`与`Android`的`SignServer`**完全不互通**！！请不要使用类似`unidbg-fetch-qsign`或其衍生作品为`Lagrange`进行签名服务！至于`NTQQ`的`SignServer`的源码或地址，请自行在互联网搜索。
+
+# Lagrange 常见问题
+
+## 提示.NET 相关内容
+
+请阅读本页面的前半部分，安装`.NET`的`7`或`8`（根据`Lagrange`的`.NET`需求）。
+
+## Code 45
+
+### 无法连接至签名服务器？
+
+尝试将配置文件中`SignServerUrl`的值直接使用浏览器或别的方式进行访问，如果无法正常连接，请尝试更换签名服务器或使用代理等方法。
+
+### 签名服务器版本过低？
+
+已知`13107`版本的`SignServer`在使用某些账号登录的时候可能会出现`Code 45`，尝试使用更新版本（`25765`协议）的`Lagrange`，并使用对应版本的`SignServer`。
+
+### 签名服务器和`Lagrange`版本不匹配？
+
+请使用对应版本的`Lagrange`，并使用对应版本的`SignServer`。
