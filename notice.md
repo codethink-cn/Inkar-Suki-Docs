@@ -101,3 +101,7 @@
 没有必要反思，因为不是`HC`的问题。
 
 </details>
+
+## 用户协议
+
+音卡协议已更新，[点此查看](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/#/license)。
