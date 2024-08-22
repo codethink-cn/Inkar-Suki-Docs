@@ -205,6 +205,8 @@ sudo ./Lagrange.OneBot
 
 尝试将配置文件中`SignServerUrl`的值直接使用浏览器或别的方式进行访问，如果无法正常连接，请尝试更换签名服务器或使用代理等方法。
 
+如果没有签名服务器，查看[Lagrange.Core的README](https://github.com/LagrangeDev/Lagrange.Core)可能会有所帮助？
+
 ### 签名服务器版本过低？
 
 已知`13107`版本的`SignServer`在使用某些账号登录的时候可能会出现`Code 45`，尝试使用更新版本（`25765`协议）的`Lagrange`，并使用对应版本的`SignServer`。
