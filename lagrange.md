@@ -205,7 +205,11 @@ sudo ./Lagrange.OneBot
 
 尝试将配置文件中`SignServerUrl`的值直接使用浏览器或别的方式进行访问，如果无法正常连接，请尝试更换签名服务器或使用代理等方法。
 
-如果没有签名服务器，查看[Lagrange.Core的README](https://github.com/LagrangeDev/Lagrange.Core)可能会有所帮助？
+如果没有签名服务器，查看[Lagrange.Core的README](https://github.com/LagrangeDev/Lagrange.Core)可能会有所帮助。
+
+但里面的签名只能用于测试连通性，真正的可用签名可能在`Arcaea`世界的某个尽头，与少女拉格兰一起……
+
+!> 如果是你的服务器无法连接，但你的本地环境可以访问，请不要以此提问为何无法连接签名服务器，~~照顾照顾开发者们的血压~~。
 
 ### 签名服务器版本过低？
 
