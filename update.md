@@ -15,3 +15,13 @@
 - [847bc03](https://github.com/HornCopper/Inkar-Suki/commit/847bc032c862fad7ead178b44fb272de57fc5424)
     - **新增**：`无修`系列**特效**装备（仅限**饰品和暗器**）的特效词条现已作为**大附魔**进入属性面板。
     - **修复**：`黄历图片生成`的部分错误解析。
+
+## 2024-12-11
+
+- [eaaac03](https://github.com/HornCopper/Inkar-Suki/commit/eaaac039304bbfdf1c363afbe93f879eadd5d018)
+    - **新增**：`资历分布`功能，支持下列搜索：
+        - 全局总览
+        - 地图总览
+        - 五甲总览
+        - 全局总览(含五甲)
+        - 秘境总览
