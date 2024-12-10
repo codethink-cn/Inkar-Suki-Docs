@@ -25,3 +25,6 @@
         - 五甲总览
         - 全局总览(含五甲)
         - 秘境总览
+- [10e96f3](https://github.com/HornCopper/Inkar-Suki/commit/10e96f3e2a25b4582829724187d62edf3d3cc5c7)
+- [37ebf04](https://github.com/HornCopper/Inkar-Suki/commit/37ebf0425e996bbb9093d0ba3aba4c20c1a9c40b)
+    - **修复**：`资历分布`的进度条显示。
