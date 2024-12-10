@@ -6,4 +6,5 @@
 * [开发](/develop)
 * [FAQ](/faq)
 * [公告](/notice)
+* [更新](/update)
 * [赞助](/donate)
