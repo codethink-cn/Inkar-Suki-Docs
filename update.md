@@ -31,8 +31,16 @@
 
 ## 2024-12-12
 
+- [e612dc5](https://github.com/HornCopper/Inkar-Suki/commit/e612dc54a69de0da8df5df4a45f837355d26a3f2)
+    - **新增**：一之窟`解密`命令将同时显示下一周期的谜底。
+
+## 2024-12-13
+
 - [e855b02](https://github.com/HornCopper/Inkar-Suki/commit/e855b02e430a26e50337401530f80db66cbecd9f)
     - **修复**：冬至武器的全属性加成对于无界心法属性计算不生效。
 - [c1809e7](https://github.com/HornCopper/Inkar-Suki/commit/c1809e75de7741d2c02623390b6c34a82eedcb7f)
     - **修复**：`黄历图片生成`对于`\n`和`\r`的解析有误。
     - **新增**：答案之书。
+- [47d4ae6](https://github.com/HornCopper/Inkar-Suki/commit/47d4ae624d73b0c260da5691ab6187e6377dbd4a)
+    - **更改**：优化`开团辅助`的个别回复。
+    - **修复**：在群内只有一个团队进行中的情况下，无法使用`解散团队`对唯一的团队进行解散。
