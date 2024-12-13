@@ -28,3 +28,11 @@
 - [10e96f3](https://github.com/HornCopper/Inkar-Suki/commit/10e96f3e2a25b4582829724187d62edf3d3cc5c7)
 - [37ebf04](https://github.com/HornCopper/Inkar-Suki/commit/37ebf0425e996bbb9093d0ba3aba4c20c1a9c40b)
     - **修复**：`资历分布`的进度条显示。
+
+## 2024-12-12
+
+- [e855b02](https://github.com/HornCopper/Inkar-Suki/commit/e855b02e430a26e50337401530f80db66cbecd9f)
+    - **修复**：冬至武器的全属性加成对于无界心法属性计算不生效。
+- [c1809e7](https://github.com/HornCopper/Inkar-Suki/commit/c1809e75de7741d2c02623390b6c34a82eedcb7f)
+    - **修复**：`黄历图片生成`对于`\n`和`\r`的解析有误。
+    - **新增**：答案之书。
