@@ -61,8 +61,79 @@
     - **修复**：略微更改`开团辅助`的报名失败提示。
     - **新增**：为无界端生成了一套随机的奇穴（**无实际作用**）。
 
-## 2024-12-?
+## 2024-12-24
 
-- ~~尚未提交~~
+- [8492845](https://github.com/HornCopper/Inkar-Suki/commit/849284534fe50d75997934a823bdfcb07f1c4c40)
     - **新增**：使`更新公告`支持使用自定义字体。
     - **新增**：新增`订阅`制，优化掉对机器人实际无需求/伪需求的群聊。
+
+## 2024-12-28
+
+- [1e7c736](https://github.com/HornCopper/Inkar-Suki/commit/1e7c73613dc2d0cdb5a4430c289dc7c610047cf9)
+    - **新增**：新奇遇`沙海劫缘`和`孤沙影寂`图片。
+    - **修复**：更改授权系统部分命令。
+    - **新增**：成就进度查询新增进度条。
+    - **修复**：成就进度的界面`CSS`不生效的问题。
+    - **新增**：雀魂月报（数据来源：牌谱屋）。
+
+## 2024-12-31
+
+- [463a517](https://github.com/HornCopper/Inkar-Suki/commit/463a517b3c3a4fc1671fb627054e177309e1046f)
+    - **修复**：`属性v2`默认版对于稀有装备的识别。
+
+## 2025-01-05
+
+- [30ba7fe](https://github.com/HornCopper/Inkar-Suki/commit/30ba7fe5ce715cb3cd93d233dadf4da5e71033dd)
+    - **修复**：`魂天`级别的`PT`最高记录有误。
+
+## 2025-01-07
+
+- [c4563af](https://github.com/HornCopper/Inkar-Suki/commit/c4563af54c1c88562ce5257b7b864039167bd265)
+    - **修复**：数据库中重复的记录。
+
+## 2025-01-10
+
+- [3b6eb16](https://github.com/HornCopper/Inkar-Suki/commit/3b6eb166e14476f472ad57e12d5740e7e5755cf6)
+    - **修复**：修复上一`commit`（`c4563af`）中的问题，同时将该问题移交`重置音卡`解决。
+
+- [6bec3c5](https://github.com/HornCopper/Inkar-Suki/commit/6bec3c540db3ae7e5694b1708c12ac145108620a)
+    - **新增**：角色绑定。
+
+- [49ade1c](https://github.com/HornCopper/Inkar-Suki/commit/49ade1ccc0cc02a82cb5a90197adc142bbb76da5)
+- [c9df3a0](https://github.com/HornCopper/Inkar-Suki/commit/c9df3a034ac80f18064e76809a36838f22b569ee)
+    - **新增**：支持顿号作为分隔符。
+
+# 2025-01-11
+
+- [38f5293](https://github.com/HornCopper/Inkar-Suki/commit/38f5293d872a5fc333102dc8bce94f5d74f3ead5)
+- [546bd5e](https://github.com/HornCopper/Inkar-Suki/commit/546bd5e1a3a53608528120ef94cbf03bc82a8eef)
+- [07ea417](https://github.com/HornCopper/Inkar-Suki/commit/07ea4172de250d8f8a7689e9bd5b031c0b960abf)
+- [09b0cb2](https://github.com/HornCopper/Inkar-Suki/commit/09b0cb29c9763a318d4c1e32b7287c5a956e5081)
+- [0351212](https://github.com/HornCopper/Inkar-Suki/commit/0351212ebaf664a2eb91a9a68c80834a890e3b00)
+- [9845d44](https://github.com/HornCopper/Inkar-Suki/commit/9845d447e447a6b45b7a93c14e7a0a01a1b0c8cd)
+- [015a841](https://github.com/HornCopper/Inkar-Suki/commit/015a8416ccfb5b0ebcd26fe7955488f0dd7c8c91)
+- [63e1bed](https://github.com/HornCopper/Inkar-Suki/commit/63e1bed3c178c3fad0bea97423bcfa6f30a5673a)
+    - **新增**：生活技艺成本计算器。
+
+- [bba5de9](https://github.com/HornCopper/Inkar-Suki/commit/bba5de9df83c7ddaaf04fee0a86fe47b222bd732)
+    - **新增**：绑定角色支持更复杂的解析。
+
+- [2a99534](https://github.com/HornCopper/Inkar-Suki/commit/2a9953498e1d07432632576ef38050a3a7c11bb0)
+    - **新增**：将成本计算限制在最高20个结果。
+
+- [d0d9121](https://github.com/HornCopper/Inkar-Suki/commit/d0d91211b3ddb3a83843c278a94c17d76f285b70)
+- [806236b](https://github.com/HornCopper/Inkar-Suki/commit/806236b4ddca1f3d46568285dcb1f09206454280)
+    - **新增**：绑定角色副本记录显示门派。
+
+- [475cfe6](https://github.com/HornCopper/Inkar-Suki/commit/475cfe6e08f3e8b2a7c46d45d16ef5bdde0d9952)
+- [01314c8](https://github.com/HornCopper/Inkar-Suki/commit/01314c81d8fba89ecc31567a03d72f67941bcbf2)
+    - **删除**：删除`属性v4`。
+
+- [cf88d40](https://github.com/HornCopper/Inkar-Suki/commit/cf88d400e260527462111f11867a5e1dac6c3871)
+    - **新增**：部分开发者命令。
+
+## 2025-01-12
+
+- [8f5d4b4](https://github.com/HornCopper/Inkar-Suki/commit/8f5d4b468c93746ffb0c8e5fbccfe642366e3ec5)
+- [934236e](https://github.com/HornCopper/Inkar-Suki/commit/934236e914a2a02f4f3c58df2243202fe1aafa69)
+    - **新增**：将服务器单开一列。
