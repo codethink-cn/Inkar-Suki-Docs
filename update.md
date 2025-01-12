@@ -103,7 +103,7 @@
 - [c9df3a0](https://github.com/HornCopper/Inkar-Suki/commit/c9df3a034ac80f18064e76809a36838f22b569ee)
     - **新增**：支持顿号作为分隔符。
 
-# 2025-01-11
+## 2025-01-11
 
 - [38f5293](https://github.com/HornCopper/Inkar-Suki/commit/38f5293d872a5fc333102dc8bce94f5d74f3ead5)
 - [546bd5e](https://github.com/HornCopper/Inkar-Suki/commit/546bd5e1a3a53608528120ef94cbf03bc82a8eef)
