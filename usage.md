@@ -438,6 +438,8 @@
 
 # 娱乐
 
+*Internel Code: twenty_four, stastic, notice, bulletin*
+
 ## 小游戏
 
 - 命令：`对诗`
@@ -483,6 +485,8 @@
 - 获取`基岩版`服务器信息。
 
 # 雀魂麻将
+
+*Internel Code: Majsoul*
 
 **暂时只支持四麻查询！**
 
