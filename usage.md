@@ -438,7 +438,7 @@
 
 # 娱乐
 
-*Internel Code: twenty_four, stastic, notice, bulletin*
+- *Internel Code: twenty_four, stastic, notice, bulletin*
 
 ## 小游戏
 
@@ -464,6 +464,8 @@
 
 # Minecraft
 
+- *Internel Code: minecraft*
+
 ## 版本获取
 
 - 命令：`mcjv`
@@ -486,7 +488,7 @@
 
 # 雀魂麻将
 
-*Internel Code: Majsoul*
+- *Internel Code: Majsoul*
 
 **暂时只支持四麻查询！**
 
