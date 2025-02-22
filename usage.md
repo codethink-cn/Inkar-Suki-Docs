@@ -309,8 +309,6 @@
 
 - 命令：`蹲号 <条件>`
 
-![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_dh.png)
-
 > 如果有多个条件，请以`空格`分割，例如：`蹲号 军萝 蝶金`。
 
 - 命令：`贴吧物价 <名称>`
@@ -385,7 +383,6 @@
 
 > `限制`是一个词条，用于限制此次团队的各种职业数量，示例：`1T2N3D4B`，表示本次团队需要`1`位防御心法，`2`位治疗心法，`3`位输出心法和`4`位躺拍老板，如果开团之后需要修改，请参考下面的`修改团队限制`。
 
-![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_create.png)
 
 ### 修改限制
 
@@ -401,21 +398,15 @@
 
 > `Inkar Suki`支持预留团队成员位置（仅创建人），在`ID`前方加一个`#`表示此次报名只预留了一个对应职业的位置，并不指定具体玩家，如果团长设置的职业限制已达上限且具有这种预留位，那么该职业的玩家仍然可以进行报名，会对该位置进行替换！
 
-![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_book.png)
-
 ### 取消预定
 
 - 命令：`取消报名 <关键词/序号> <ID>`
 
 > 命令别名为：`取消预定`、`取消报名`。
 
-![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_unbook.png)
-
 ### 查看团队
 
 - 命令：`查看团队 <关键词/序号>`
-
-![](https://inkar-suki.codethink.cn/Inkar-Suki-Docs/img/examples/jx3_assistance_lookup.png)
 
 ### 团队列表
 
