@@ -44,7 +44,7 @@
 
 如果使用的是`/`，那么该斜杠在此处仅仅作为一个字符！
 
-例如`+webhook <author/repository>`，您应该给出`+webhook codethink-cn/Inkar-Suki`，而不是`+webhook codethink-cn`或者`+webhook Inkar-Suki`！
+例如`+webhook <author/repository>`，您应该给出`+webhook HornCopper/Inkar-Suki`，而不是`+webhook codethink-cn`或者`+webhook Inkar-Suki`！
 
 如果使用的是`|`，那么该竖线表示参数二选一。
 

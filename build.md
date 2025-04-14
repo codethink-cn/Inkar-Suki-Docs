@@ -12,7 +12,7 @@
 
 目前强烈推荐从`GitHub`上直接进行拉取，使用下面的命令：
 ```
-git clone https://github.com/codethink-cn/Inkar-Suki.git
+git clone https://github.com/HornCopper/Inkar-Suki.git
 ```
 
 ## 环境

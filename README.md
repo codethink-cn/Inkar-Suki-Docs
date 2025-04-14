@@ -10,7 +10,7 @@
 
 这并不意味着您不可以对`Inkar Suki`的代码进行更改，相反，我们有大量代码均由社区成员贡献。
 
-`Inkar Suki`是开源的项目！他的项目地址为：`codethink-cn/Inkar-Suki`，位于`GitHub`，[点击传送](https://github.com/codethink-cn/Inkar-Suki)。
+`Inkar Suki`是开源的项目！他的项目地址为：`HornCopper/Inkar-Suki`，位于`GitHub`，[点击传送](https://github.com/HornCopper/Inkar-Suki)。
 
 `Inkar Suki`按`AGPL-3.0`协议开源。不允许任何商用行为，如果您基于我们的代码再次开发，记得也要遵守该协议哦，如果您参与了音卡的开发，在您拥有`Inkar Suki`仓库`Write`权限的时候，可以不受该协议拘束，如果被移出开发组，则需要将代码以同样的方式再次开源。
 
@@ -20,7 +20,7 @@
 
 ## 相关链接
 
-GitHub仓库地址：[codethink-cn/Inkar-Suki](https://github.com/codethink-cn/Inkar-Suki)<br>
+GitHub仓库地址：[HornCopper/Inkar-Suki](https://github.com/HornCopper/Inkar-Suki)<br>
 剑网3魔盒地址：[【Inkar-Suki】开源……已更新至V0.8.4](https://www.jx3box.com/tool/56988)<br>
 CodeThink团队官网：[代码思维 - CodeThink](https://www.codethink.cn/)<br>
 Go-CQHTTP官网：[基于 Mirai 以及 MiraiGo 的 OneBot Golang 原生实现](https://docs.go-cqhttp.org/)<br>
